@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_ws/build/message': /usr/bin/cmake --build /root/ros2_ws/build/message -- -j8 -l8
+Invoked command in '/root/ros2_ws/build/message' returned '0': /usr/bin/cmake --build /root/ros2_ws/build/message -- -j8 -l8
+Invoking command in '/root/ros2_ws/build/message': /usr/bin/cmake --install /root/ros2_ws/build/message
+Invoked command in '/root/ros2_ws/build/message' returned '0': /usr/bin/cmake --install /root/ros2_ws/build/message

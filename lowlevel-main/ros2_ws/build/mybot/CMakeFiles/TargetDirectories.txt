@@ -1,0 +1,12 @@
+/root/ros2_ws/build/mybot/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/mybot/CMakeFiles/mybot_uninstall.dir
+/root/ros2_ws/build/mybot/CMakeFiles/motor_node.dir
+/root/ros2_ws/build/mybot/CMakeFiles/face_tracking_node.dir
+/root/ros2_ws/build/mybot/CMakeFiles/joint_state_publisher_node.dir
+/root/ros2_ws/build/mybot/CMakeFiles/test.dir
+/root/ros2_ws/build/mybot/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/mybot/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/mybot/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/mybot/CMakeFiles/install.dir
+/root/ros2_ws/build/mybot/CMakeFiles/install/local.dir
+/root/ros2_ws/build/mybot/CMakeFiles/install/strip.dir

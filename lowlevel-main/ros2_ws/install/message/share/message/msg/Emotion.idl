@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from message/msg/Emotion.msg
+// generated code does not contain a copyright notice
+
+
+module message {
+  module msg {
+    struct Emotion {
+      @verbatim (language="comment", text=
+        "emotion")
+      string emotion;
+
+      @verbatim (language="comment", text=
+        "distance")
+      float x;
+
+      @verbatim (language="comment", text=
+        "relative verschiebung in x richtung")
+      float y;
+
+      @verbatim (language="comment", text=
+        "relative verschiebung in y richtung")
+      float z;
+    };
+  };
+};

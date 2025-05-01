@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.004092] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.004619] (mybot_interfaces) JobQueued: {'identifier': 'mybot_interfaces', 'dependencies': OrderedDict()}
+[0.004810] (my_ros2_project) JobQueued: {'identifier': 'my_ros2_project', 'dependencies': OrderedDict([('message', '/root/ros2_ws/install/message')])}
+[0.005271] (mybot) JobQueued: {'identifier': 'mybot', 'dependencies': OrderedDict([('message', '/root/ros2_ws/install/message'), ('my_ros2_project', '/root/ros2_ws/install/my_ros2_project')])}
+[0.012639] (message) JobStarted: {'identifier': 'message'}
+[0.089166] (mybot_interfaces) JobStarted: {'identifier': 'mybot_interfaces'}
+[0.099932] (-) TimerEvent: {}
+[0.147253] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.151936] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.156774] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/message', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/message', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/build/message'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:/opt/ros/humble'), ('LANG', 'en_US.UTF-8'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/root'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/mybot_interfaces/lib:/root/ros2_ws/install/message/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', '05d0bcf9ced5')]), 'shell': False}
+[0.189310] (mybot_interfaces) JobProgress: {'identifier': 'mybot_interfaces', 'progress': 'cmake'}
+[0.193143] (mybot_interfaces) JobProgress: {'identifier': 'mybot_interfaces', 'progress': 'build'}
+[0.197679] (mybot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/mybot_interfaces', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/mybot_interfaces', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/build/mybot_interfaces'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:/opt/ros/humble'), ('LANG', 'en_US.UTF-8'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/root'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/mybot_interfaces/lib:/root/ros2_ws/install/message/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', '05d0bcf9ced5')]), 'shell': False}
+[0.201613] (-) TimerEvent: {}
+[0.302791] (-) TimerEvent: {}
+[0.404080] (-) TimerEvent: {}
+[0.505403] (-) TimerEvent: {}
+[0.606726] (-) TimerEvent: {}
+[0.708708] (-) TimerEvent: {}
+[0.810749] (-) TimerEvent: {}
+[0.912612] (-) TimerEvent: {}
+[1.014319] (-) TimerEvent: {}
+[1.116346] (-) TimerEvent: {}
+[1.177104] (message) StdoutLine: {'line': b'[  3%] Built target message__cpp\n'}
+[1.219509] (-) TimerEvent: {}
+[1.226263] (message) StdoutLine: {'line': b'[ 12%] Built target message__rosidl_generator_c\n'}
+[1.279347] (mybot_interfaces) StdoutLine: {'line': b'[ 10%] Built target mybot_interfaces__rosidl_generator_c\n'}
+[1.319781] (-) TimerEvent: {}
+[1.328521] (mybot_interfaces) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_mybot_interfaces\n'}
+[1.348213] (mybot_interfaces) StdoutLine: {'line': b'[ 12%] Built target mybot_interfaces__cpp\n'}
+[1.396228] (message) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_message\n'}
+[1.420093] (-) TimerEvent: {}
+[1.529473] (-) TimerEvent: {}
+[1.631613] (-) TimerEvent: {}
+[1.739519] (-) TimerEvent: {}
+[1.841517] (-) TimerEvent: {}
+[1.949381] (-) TimerEvent: {}
+[2.052738] (-) TimerEvent: {}
+[2.108102] (message) StdoutLine: {'line': b'[ 22%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[2.153144] (-) TimerEvent: {}
+[2.209707] (mybot_interfaces) StdoutLine: {'line': b'[ 23%] Built target mybot_interfaces__rosidl_typesupport_c\n'}
+[2.259427] (-) TimerEvent: {}
+[2.283724] (mybot_interfaces) StdoutLine: {'line': b'[ 33%] Built target mybot_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.323015] (message) StdoutLine: {'line': b'[ 32%] Built target message__rosidl_typesupport_cpp\n'}
+[2.327771] (message) StdoutLine: {'line': b'[ 51%] Built target message__rosidl_typesupport_c\n'}
+[2.332963] (message) StdoutLine: {'line': b'[ 51%] Built target message__rosidl_typesupport_introspection_c\n'}
+[2.359767] (-) TimerEvent: {}
+[2.381784] (message) StdoutLine: {'line': b'[ 61%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[2.437749] (message) StdoutLine: {'line': b'[ 70%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[2.460052] (-) TimerEvent: {}
+[2.466180] (mybot_interfaces) StdoutLine: {'line': b'[ 43%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.497791] (mybot_interfaces) StdoutLine: {'line': b'[ 53%] Built target mybot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.560370] (-) TimerEvent: {}
+[2.562257] (mybot_interfaces) StdoutLine: {'line': b'[ 64%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.565963] (mybot_interfaces) StdoutLine: {'line': b'[ 74%] Built target mybot_interfaces__rosidl_typesupport_cpp\n'}
+[2.660711] (-) TimerEvent: {}
+[2.762402] (-) TimerEvent: {}
+[2.841212] (mybot_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.842821] (message) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.843612] (message) StderrLine: {'line': b'  File "/root/ros2_ws/build/message/ament_cmake_python/message/setup.py", line 1, in <module>\n'}
+[2.844331] (mybot_interfaces) StderrLine: {'line': b'  File "/root/ros2_ws/build/mybot_interfaces/ament_cmake_python/mybot_interfaces/setup.py", line 1, in <module>\n'}
+[2.845027] (mybot_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:187: CMakeFiles/mybot_interfaces.dir/all] Interrupt\n'}
+[2.846494] (message) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[2.847882] (message) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>\n'}
+[2.848797] (message) StderrLine: {'line': b'    import distutils.core\n'}
+[2.849633] (message) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>\n'}
+[2.850444] (message) StderrLine: {'line': b'    from distutils.dist import Distribution\n'}
+[2.851201] (message) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>\n'}
+[2.851956] (message) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/message.dir/all] Interrupt\n'}
+[2.853710] (message) StderrLine: {'line': b'    from distutils.fancy_getopt import FancyGetopt, translate_longopt\n'}
+[2.854359] (message) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 12, in <module>\n'}
+[2.854934] (mybot_interfaces) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[2.855498] (mybot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>\n'}
+[2.856083] (mybot_interfaces) StderrLine: {'line': b'    import distutils.core\n'}
+[2.856636] (mybot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>\n'}
+[2.857176] (mybot_interfaces) StderrLine: {'line': b'    from distutils.cmd import Command\n'}
+[2.857715] (mybot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>\n'}
+[2.858257] (mybot_interfaces) StderrLine: {'line': b'    from distutils import util, dir_util, file_util, archive_util, dep_util\n'}
+[2.858810] (mybot_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>\n'}
+[2.859409] (mybot_interfaces) StderrLine: {'line': b'    import zipfile\n'}
+[2.859957] (mybot_interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load\n'}
+[2.860510] (mybot_interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked\n'}
+[2.861070] (mybot_interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked\n'}
+[2.861621] (mybot_interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 577, in module_from_spec\n'}
+[2.862157] (mybot_interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 556, in _init_module_attrs\n'}
+[2.862717] (-) TimerEvent: {}
+[2.863543] (mybot_interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 397, in cached\n'}
+[2.864320] (mybot_interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap_external>", line 513, in _get_cached\n'}
+[2.864885] (mybot_interfaces) StderrLine: {'line': b'  File "<frozen importlib._bootstrap_external>", line 423, in cache_from_source\n'}
+[2.865436] (mybot_interfaces) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[2.866012] (message) StderrLine: {'line': b'    import getopt\n'}
+[2.866566] (message) StderrLine: {'line': b'  File "/usr/lib/python3.10/getopt.py", line 38, in <module>\n'}
+[2.867138] (message) StderrLine: {'line': b'    from gettext import gettext as _\n'}
+[2.867832] (message) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load\n'}
+[2.868420] (message) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked\n'}
+[2.869057] (message) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked\n'}
+[2.869717] (message) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 577, in module_from_spec\n'}
+[2.870306] (message) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 558, in _init_module_attrs\n'}
+[2.870924] (message) StderrLine: {'line': b'  File "<frozen importlib._bootstrap>", line 391, in cached\n'}
+[2.871499] (message) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[2.880727] (message) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_message_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_message_egg] Interrupt\n'}
+[2.882204] (message) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_message_egg.dir/all] Interrupt\n'}
+[2.886200] (mybot_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg] Interrupt\n'}
+[2.887122] (message) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[2.888385] (mybot_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg.dir/all] Interrupt\n'}
+[2.894732] (message) CommandEnded: {'returncode': -2}
+[2.898243] (mybot_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[2.965236] (-) TimerEvent: {}
+[2.999138] (message) JobEnded: {'identifier': 'message', 'rc': 'SIGINT'}
+[3.007765] (mybot_interfaces) JobEnded: {'identifier': 'mybot_interfaces', 'rc': 'SIGINT'}
+[3.020428] (my_ros2_project) JobSkipped: {'identifier': 'my_ros2_project'}
+[3.020734] (mybot) JobSkipped: {'identifier': 'mybot'}
+[3.020929] (-) EventReactorShutdown: {}

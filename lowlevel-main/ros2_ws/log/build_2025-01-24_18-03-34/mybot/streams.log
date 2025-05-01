@@ -1,0 +1,8 @@
+[0.116s] Invoking command in '/root/ros2_ws/build/mybot': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message CMAKE_PREFIX_PATH=/root/ros2_ws/install/message LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_ws/build/mybot -- -j8 -l8
+[1.026s] [ 33%] Built target motor_node
+[1.045s] [ 66%] Built target joint_state_publisher_node
+[1.054s] [ 83%] [32mBuilding CXX object CMakeFiles/face_tracking_node.dir/src/face_tracking_node.cpp.o[0m
+[3.511s] gmake[2]: *** [CMakeFiles/face_tracking_node.dir/build.make:76: CMakeFiles/face_tracking_node.dir/src/face_tracking_node.cpp.o] Interrupt
+[3.516s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/face_tracking_node.dir/all] Interrupt
+[3.521s] gmake: *** [Makefile:146: all] Interrupt
+[3.527s] Invoked command in '/root/ros2_ws/build/mybot' returned '-2': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message CMAKE_PREFIX_PATH=/root/ros2_ws/install/message LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_ws/build/mybot -- -j8 -l8

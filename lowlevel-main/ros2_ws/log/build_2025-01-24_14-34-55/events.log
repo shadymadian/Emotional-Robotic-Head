@@ -1,0 +1,1118 @@
+[0.000000] (-) TimerEvent: {}
+[0.003990] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.004543] (mybot_interfaces) JobQueued: {'identifier': 'mybot_interfaces', 'dependencies': OrderedDict()}
+[0.004734] (my_ros2_project) JobQueued: {'identifier': 'my_ros2_project', 'dependencies': OrderedDict([('message', '/root/ros2_ws/install/message')])}
+[0.005181] (mybot) JobQueued: {'identifier': 'mybot', 'dependencies': OrderedDict([('message', '/root/ros2_ws/install/message'), ('my_ros2_project', '/root/ros2_ws/install/my_ros2_project')])}
+[0.014690] (message) JobStarted: {'identifier': 'message'}
+[0.087440] (mybot_interfaces) JobStarted: {'identifier': 'mybot_interfaces'}
+[0.098087] (-) TimerEvent: {}
+[0.143451] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.153195] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.153553] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/message', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/message', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/build/message'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:/opt/ros/humble'), ('LANG', 'en_US.UTF-8'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/root'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/mybot_interfaces/lib:/root/ros2_ws/install/message/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', '05d0bcf9ced5')]), 'shell': False}
+[0.183238] (mybot_interfaces) JobProgress: {'identifier': 'mybot_interfaces', 'progress': 'cmake'}
+[0.187044] (mybot_interfaces) JobProgress: {'identifier': 'mybot_interfaces', 'progress': 'build'}
+[0.191580] (mybot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/mybot_interfaces', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/mybot_interfaces', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/build/mybot_interfaces'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:/opt/ros/humble'), ('LANG', 'en_US.UTF-8'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/root'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/mybot_interfaces/lib:/root/ros2_ws/install/message/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', '05d0bcf9ced5')]), 'shell': False}
+[0.198402] (-) TimerEvent: {}
+[0.300046] (-) TimerEvent: {}
+[0.401678] (-) TimerEvent: {}
+[0.503298] (-) TimerEvent: {}
+[0.604896] (-) TimerEvent: {}
+[0.706613] (-) TimerEvent: {}
+[0.808426] (-) TimerEvent: {}
+[0.910663] (-) TimerEvent: {}
+[1.012338] (-) TimerEvent: {}
+[1.113991] (-) TimerEvent: {}
+[1.146707] (mybot_interfaces) StdoutLine: {'line': b'[ 10%] Built target mybot_interfaces__rosidl_generator_c\n'}
+[1.216188] (-) TimerEvent: {}
+[1.246843] (message) StdoutLine: {'line': b'[ 12%] Built target message__rosidl_generator_c\n'}
+[1.256028] (message) StdoutLine: {'line': b'[ 12%] Built target message__cpp\n'}
+[1.299795] (mybot_interfaces) StdoutLine: {'line': b'[ 12%] Built target mybot_interfaces__cpp\n'}
+[1.309406] (message) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_message\n'}
+[1.316506] (-) TimerEvent: {}
+[1.423339] (-) TimerEvent: {}
+[1.525250] (-) TimerEvent: {}
+[1.631915] (-) TimerEvent: {}
+[1.637696] (mybot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_mybot_interfaces\n'}
+[1.732945] (-) TimerEvent: {}
+[1.839556] (-) TimerEvent: {}
+[1.946275] (-) TimerEvent: {}
+[2.052612] (-) TimerEvent: {}
+[2.148793] (mybot_interfaces) StdoutLine: {'line': b'[ 23%] Built target mybot_interfaces__rosidl_typesupport_c\n'}
+[2.156297] (-) TimerEvent: {}
+[2.210265] (mybot_interfaces) StdoutLine: {'line': b'[ 33%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.246064] (message) StdoutLine: {'line': b'[ 22%] Built target message__rosidl_typesupport_cpp\n'}
+[2.256595] (-) TimerEvent: {}
+[2.315443] (message) StdoutLine: {'line': b'[ 32%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[2.359407] (-) TimerEvent: {}
+[2.370420] (message) StdoutLine: {'line': b'[ 41%] Built target message__rosidl_typesupport_c\n'}
+[2.379239] (message) StdoutLine: {'line': b'[ 51%] Built target message__rosidl_typesupport_introspection_c\n'}
+[2.418909] (message) StdoutLine: {'line': b'[ 61%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[2.441240] (mybot_interfaces) StdoutLine: {'line': b'[ 43%] Built target mybot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.443311] (mybot_interfaces) StdoutLine: {'line': b'[ 53%] Built target mybot_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.457243] (message) StdoutLine: {'line': b'[ 70%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[2.459618] (-) TimerEvent: {}
+[2.516167] (mybot_interfaces) StdoutLine: {'line': b'[ 64%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.521580] (mybot_interfaces) StdoutLine: {'line': b'[ 74%] Built target mybot_interfaces__rosidl_typesupport_cpp\n'}
+[2.559942] (-) TimerEvent: {}
+[2.661569] (-) TimerEvent: {}
+[2.764217] (-) TimerEvent: {}
+[2.865660] (-) TimerEvent: {}
+[2.889120] (message) StdoutLine: {'line': b'[ 70%] Built target message\n'}
+[2.956977] (mybot_interfaces) StdoutLine: {'line': b'[ 74%] Built target mybot_interfaces\n'}
+[2.966102] (-) TimerEvent: {}
+[3.067947] (-) TimerEvent: {}
+[3.169596] (-) TimerEvent: {}
+[3.271262] (-) TimerEvent: {}
+[3.311214] (message) StdoutLine: {'line': b'[ 74%] Built target message__py\n'}
+[3.371672] (-) TimerEvent: {}
+[3.381035] (mybot_interfaces) StdoutLine: {'line': b'[ 76%] Built target mybot_interfaces__py\n'}
+[3.471978] (-) TimerEvent: {}
+[3.573655] (-) TimerEvent: {}
+[3.675415] (-) TimerEvent: {}
+[3.741977] (message) StdoutLine: {'line': b'[ 80%] Built target message__rosidl_generator_py\n'}
+[3.775717] (-) TimerEvent: {}
+[3.835993] (mybot_interfaces) StdoutLine: {'line': b'[ 84%] Built target mybot_interfaces__rosidl_generator_py\n'}
+[3.876116] (-) TimerEvent: {}
+[3.980628] (-) TimerEvent: {}
+[4.085822] (-) TimerEvent: {}
+[4.189780] (-) TimerEvent: {}
+[4.294455] (-) TimerEvent: {}
+[4.399678] (-) TimerEvent: {}
+[4.436591] (message) StdoutLine: {'line': b'[ 87%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.458114] (message) StdoutLine: {'line': b'[ 93%] Built target message__rosidl_typesupport_c__pyext\n'}
+[4.471946] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_introspection_c__pyext\n'}
+[4.500432] (-) TimerEvent: {}
+[4.545531] (mybot_interfaces) StdoutLine: {'line': b'[ 89%] Built target mybot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.560501] (mybot_interfaces) StdoutLine: {'line': b'[ 94%] Built target mybot_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.568082] (mybot_interfaces) StdoutLine: {'line': b'[100%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.600840] (-) TimerEvent: {}
+[4.703605] (-) TimerEvent: {}
+[4.805074] (-) TimerEvent: {}
+[4.906294] (-) TimerEvent: {}
+[4.920478] (mybot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.926573] (mybot_interfaces) StdoutLine: {'line': b'writing mybot_interfaces.egg-info/PKG-INFO\n'}
+[4.928300] (mybot_interfaces) StdoutLine: {'line': b'writing dependency_links to mybot_interfaces.egg-info/dependency_links.txt\n'}
+[4.930484] (mybot_interfaces) StdoutLine: {'line': b'writing top-level names to mybot_interfaces.egg-info/top_level.txt\n'}
+[4.944588] (mybot_interfaces) StdoutLine: {'line': b"reading manifest file 'mybot_interfaces.egg-info/SOURCES.txt'\n"}
+[4.949902] (mybot_interfaces) StdoutLine: {'line': b"writing manifest file 'mybot_interfaces.egg-info/SOURCES.txt'\n"}
+[4.975946] (message) StdoutLine: {'line': b'running egg_info\n'}
+[4.981619] (message) StdoutLine: {'line': b'writing message.egg-info/PKG-INFO\n'}
+[4.983219] (message) StdoutLine: {'line': b'writing dependency_links to message.egg-info/dependency_links.txt\n'}
+[4.985218] (message) StdoutLine: {'line': b'writing top-level names to message.egg-info/top_level.txt\n'}
+[4.999013] (message) StdoutLine: {'line': b"reading manifest file 'message.egg-info/SOURCES.txt'\n"}
+[5.003745] (message) StdoutLine: {'line': b"writing manifest file 'message.egg-info/SOURCES.txt'\n"}
+[5.006492] (-) TimerEvent: {}
+[5.107774] (-) TimerEvent: {}
+[5.154695] (mybot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_mybot_interfaces_egg\n'}
+[5.207768] (message) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_message_egg\n'}
+[5.208643] (-) TimerEvent: {}
+[5.298553] (mybot_interfaces) CommandEnded: {'returncode': 0}
+[5.307362] (mybot_interfaces) JobProgress: {'identifier': 'mybot_interfaces', 'progress': 'install'}
+[5.308910] (-) TimerEvent: {}
+[5.410330] (-) TimerEvent: {}
+[5.427342] (mybot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/mybot_interfaces'], 'cwd': '/root/ros2_ws/build/mybot_interfaces', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/build/mybot_interfaces'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:/opt/ros/humble'), ('LANG', 'en_US.UTF-8'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/root'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/mybot_interfaces/lib:/root/ros2_ws/install/message/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', '05d0bcf9ced5')]), 'shell': False}
+[5.437085] (message) CommandEnded: {'returncode': 0}
+[5.440712] (message) JobProgress: {'identifier': 'message', 'progress': 'install'}
+[5.445065] (message) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/message'], 'cwd': '/root/ros2_ws/build/message', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/build/message'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:/opt/ros/humble'), ('LANG', 'en_US.UTF-8'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/root'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/mybot_interfaces/lib:/root/ros2_ws/install/message/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', '05d0bcf9ced5')]), 'shell': False}
+[5.510656] (-) TimerEvent: {}
+[5.579984] (message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.584471] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/ament_index/resource_index/rosidl_interfaces/message\n'}
+[5.585878] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message\n'}
+[5.586785] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg\n'}
+[5.587944] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail\n'}
+[5.588846] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__functions.h\n'}
+[5.589563] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__functions.c\n'}
+[5.590154] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__type_support.h\n'}
+[5.590734] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__struct.h\n'}
+[5.591300] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.591865] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/emotion.h\n'}
+[5.592494] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/environment/library_path.sh\n'}
+[5.593361] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/environment/library_path.dsv\n'}
+[5.593973] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_generator_c.so\n'}
+[5.595238] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message\n'}
+[5.596216] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg\n'}
+[5.597108] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail\n'}
+[5.598353] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__rosidl_typesupport_fastrtps_c.h\n'}
+[5.599492] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.600360] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[5.601554] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message\n'}
+[5.602210] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg\n'}
+[5.603093] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail\n'}
+[5.603978] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__struct.hpp\n'}
+[5.604974] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__traits.hpp\n'}
+[5.605672] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__builder.hpp\n'}
+[5.607056] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__type_support.hpp\n'}
+[5.607904] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/emotion.hpp\n'}
+[5.608690] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.609817] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message\n'}
+[5.610628] (-) TimerEvent: {}
+[5.611555] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg\n'}
+[5.613335] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail\n'}
+[5.614303] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.615012] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/dds_fastrtps\n'}
+[5.615618] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.616262] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.616868] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message\n'}
+[5.617442] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg\n'}
+[5.618028] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail\n'}
+[5.618615] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__type_support.c\n'}
+[5.619196] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__rosidl_typesupport_introspection_c.h\n'}
+[5.619797] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.620481] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so\n'}
+[5.621069] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_c.so\n'}
+[5.621649] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message\n'}
+[5.622231] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg\n'}
+[5.622847] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail\n'}
+[5.623430] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__type_support.cpp\n'}
+[5.624023] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.625741] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[5.627135] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_cpp.so\n'}
+[5.627739] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/environment/pythonpath.sh\n'}
+[5.628301] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/environment/pythonpath.dsv\n'}
+[5.628858] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info\n'}
+[5.629437] (message) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.630008] (message) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.630595] (message) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.631152] (message) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.631707] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message\n'}
+[5.632260] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/__init__.py\n'}
+[5.632873] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/libmessage__rosidl_generator_py.so\n'}
+[5.633806] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.634451] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.635024] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_c.c\n'}
+[5.635586] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.636235] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.636858] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg\n'}
+[5.637461] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg/__init__.py\n'}
+[5.638054] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg/_emotion.py\n'}
+[5.638668] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg/_emotion_s.c\n'}
+[5.639350] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.640021] (mybot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.642595] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/ament_index/resource_index/rosidl_interfaces/mybot_interfaces\n'}
+[5.643570] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces\n'}
+[5.644409] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg\n'}
+[5.645119] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.646909] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv\n'}
+[5.647564] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail\n'}
+[5.648193] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__struct.h\n'}
+[5.648801] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__functions.c\n'}
+[5.649734] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__type_support.h\n'}
+[5.650383] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__functions.h\n'}
+[5.651004] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__functions.c\n'}
+[5.651817] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__functions.h\n'}
+[5.653136] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__struct.h\n'}
+[5.653817] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__type_support.h\n'}
+[5.654424] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/rotate.h\n'}
+[5.655041] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/set_coordinates.h\n'}
+[5.655990] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/library_path.sh\n'}
+[5.656667] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/library_path.dsv\n'}
+[5.657867] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_generator_c.so\n'}
+[5.658492] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces\n'}
+[5.659087] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg\n'}
+[5.659769] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.660433] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv\n'}
+[5.661068] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail\n'}
+[5.662824] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[5.663473] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__rosidl_typesupport_fastrtps_c.h\n'}
+[5.664052] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.664614] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces\n'}
+[5.665170] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg\n'}
+[5.665730] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.666369] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv\n'}
+[5.666979] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail\n'}
+[5.667575] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__traits.hpp\n'}
+[5.668189] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__struct.hpp\n'}
+[5.668813] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__struct.hpp\n'}
+[5.669481] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__traits.hpp\n'}
+[5.670109] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__builder.hpp\n'}
+[5.670780] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__type_support.hpp\n'}
+[5.671388] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__builder.hpp\n'}
+[5.671965] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__type_support.hpp\n'}
+[5.672558] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/set_coordinates.hpp\n'}
+[5.673150] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/rotate.hpp\n'}
+[5.673753] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces\n'}
+[5.674330] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg\n'}
+[5.674934] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.675514] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv\n'}
+[5.676132] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail\n'}
+[5.676728] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.677311] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/dds_fastrtps\n'}
+[5.677886] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.678463] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.679052] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces\n'}
+[5.679672] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg\n'}
+[5.680245] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.680818] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv\n'}
+[5.681380] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail\n'}
+[5.681938] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__type_support.c\n'}
+[5.682633] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__type_support.c\n'}
+[5.683820] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__rosidl_typesupport_introspection_c.h\n'}
+[5.684757] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__rosidl_typesupport_introspection_c.h\n'}
+[5.685639] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.686374] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_c.so\n'}
+[5.686974] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces\n'}
+[5.687542] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv\n'}
+[5.688105] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail\n'}
+[5.688701] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.689428] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__type_support.cpp\n'}
+[5.690053] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.690636] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__type_support.cpp\n'}
+[5.691200] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.691789] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.692401] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/pythonpath.sh\n'}
+[5.693043] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/pythonpath.dsv\n'}
+[5.693626] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info\n'}
+[5.694214] (mybot_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.694801] (mybot_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.695374] (mybot_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.696003] (mybot_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.696604] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces\n'}
+[5.697165] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.697725] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.698286] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/__init__.py\n'}
+[5.698847] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.699523] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/libmybot_interfaces__rosidl_generator_py.so\n'}
+[5.700107] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.700699] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.701322] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv\n'}
+[5.701902] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_set_coordinates.py\n'}
+[5.702552] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/__init__.py\n'}
+[5.703147] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_rotate_s.c\n'}
+[5.703705] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_rotate.py\n'}
+[5.704269] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_set_coordinates_s.c\n'}
+[5.704840] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.711294] (-) TimerEvent: {}
+[5.813325] (-) TimerEvent: {}
+[5.914621] (-) TimerEvent: {}
+[6.015841] (-) TimerEvent: {}
+[6.117141] (-) TimerEvent: {}
+[6.120729] (message) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message'...\n"}
+[6.121607] (message) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg'...\n"}
+[6.149749] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.151688] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.153705] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.155590] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_generator_py.so\n'}
+[6.157168] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/msg/Emotion.idl\n'}
+[6.158872] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/msg/Emotion.msg\n'}
+[6.160885] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/ament_index/resource_index/package_run_dependencies/message\n'}
+[6.162481] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/ament_index/resource_index/parent_prefix_path/message\n'}
+[6.163823] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/environment/ament_prefix_path.sh\n'}
+[6.165020] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/environment/ament_prefix_path.dsv\n'}
+[6.166828] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/environment/path.sh\n'}
+[6.168145] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/environment/path.dsv\n'}
+[6.169619] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/local_setup.bash\n'}
+[6.170918] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/local_setup.sh\n'}
+[6.172196] (mybot_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces'...\n"}
+[6.173527] (mybot_interfaces) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv'...\n"}
+[6.174896] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/local_setup.zsh\n'}
+[6.176173] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/local_setup.dsv\n'}
+[6.177459] (message) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/message/share/message/package.dsv\n'}
+[6.178710] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/ament_index/resource_index/packages/message\n'}
+[6.179998] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_cExport.cmake\n'}
+[6.181246] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.182423] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.183568] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.184683] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_cppExport.cmake\n'}
+[6.186101] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.187957] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.189096] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.190139] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.191161] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_cExport.cmake\n'}
+[6.192095] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.193081] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.194076] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.195018] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_cppExport.cmake\n'}
+[6.195987] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.197016] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_pyExport.cmake\n'}
+[6.198195] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.199360] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/rosidl_cmake-extras.cmake\n'}
+[6.200599] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.201806] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.203466] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.204766] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.206810] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.208295] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.209506] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/messageConfig.cmake\n'}
+[6.210685] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/messageConfig-version.cmake\n'}
+[6.211884] (message) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/message/share/message/package.xml\n'}
+[6.212980] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.213784] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.214566] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.215584] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_generator_py.so\n'}
+[6.216370] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/Rotate.idl\n'}
+[6.217071] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/SetCoordinates.idl\n'}
+[6.217752] (-) TimerEvent: {}
+[6.218452] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/Rotate.srv\n'}
+[6.220399] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/Rotate_Request.msg\n'}
+[6.222982] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/Rotate_Response.msg\n'}
+[6.223818] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/SetCoordinates.srv\n'}
+[6.224495] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/SetCoordinates_Request.msg\n'}
+[6.225212] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/SetCoordinates_Response.msg\n'}
+[6.228723] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/ament_index/resource_index/package_run_dependencies/mybot_interfaces\n'}
+[6.229548] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/ament_index/resource_index/parent_prefix_path/mybot_interfaces\n'}
+[6.230246] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/ament_prefix_path.sh\n'}
+[6.230894] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/ament_prefix_path.dsv\n'}
+[6.231939] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/path.sh\n'}
+[6.232767] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/path.dsv\n'}
+[6.233453] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/local_setup.bash\n'}
+[6.234203] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/local_setup.sh\n'}
+[6.234918] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/local_setup.zsh\n'}
+[6.235569] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/local_setup.dsv\n'}
+[6.236276] (mybot_interfaces) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/package.dsv\n'}
+[6.236927] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/ament_index/resource_index/packages/mybot_interfaces\n'}
+[6.238192] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_cExport.cmake\n'}
+[6.238918] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.239626] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.240344] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.242033] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[6.242983] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.243690] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.244658] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.245334] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.246272] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[6.247005] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.247709] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.248323] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.248894] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[6.249504] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.250460] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[6.252231] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.253006] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[6.253765] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.254473] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.255525] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.256146] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.256722] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.258735] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.259395] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfacesConfig.cmake\n'}
+[6.261248] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfacesConfig-version.cmake\n'}
+[6.262054] (mybot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/package.xml\n'}
+[6.262766] (message) CommandEnded: {'returncode': 0}
+[6.320506] (-) TimerEvent: {}
+[6.422556] (-) TimerEvent: {}
+[6.434655] (message) JobEnded: {'identifier': 'message', 'rc': 0}
+[6.439496] (my_ros2_project) JobStarted: {'identifier': 'my_ros2_project'}
+[6.481608] (mybot_interfaces) CommandEnded: {'returncode': 0}
+[6.523281] (-) TimerEvent: {}
+[6.609014] (mybot_interfaces) JobEnded: {'identifier': 'mybot_interfaces', 'rc': 0}
+[6.623749] (-) TimerEvent: {}
+[6.725057] (-) TimerEvent: {}
+[6.826322] (-) TimerEvent: {}
+[6.927762] (-) TimerEvent: {}
+[7.028763] (-) TimerEvent: {}
+[7.129923] (-) TimerEvent: {}
+[7.231094] (-) TimerEvent: {}
+[7.332202] (-) TimerEvent: {}
+[7.433349] (-) TimerEvent: {}
+[7.534454] (-) TimerEvent: {}
+[7.635541] (-) TimerEvent: {}
+[7.736866] (-) TimerEvent: {}
+[7.838173] (-) TimerEvent: {}
+[7.939345] (-) TimerEvent: {}
+[8.040501] (-) TimerEvent: {}
+[8.141682] (-) TimerEvent: {}
+[8.243052] (-) TimerEvent: {}
+[8.344483] (-) TimerEvent: {}
+[8.445879] (-) TimerEvent: {}
+[8.547071] (-) TimerEvent: {}
+[8.648464] (-) TimerEvent: {}
+[8.750140] (-) TimerEvent: {}
+[8.851494] (-) TimerEvent: {}
+[8.952658] (-) TimerEvent: {}
+[9.053799] (-) TimerEvent: {}
+[9.154845] (-) TimerEvent: {}
+[9.256024] (-) TimerEvent: {}
+[9.357141] (-) TimerEvent: {}
+[9.458329] (-) TimerEvent: {}
+[9.559417] (-) TimerEvent: {}
+[9.660470] (-) TimerEvent: {}
+[9.761670] (-) TimerEvent: {}
+[9.863062] (-) TimerEvent: {}
+[9.964171] (-) TimerEvent: {}
+[10.065273] (-) TimerEvent: {}
+[10.166474] (-) TimerEvent: {}
+[10.267522] (-) TimerEvent: {}
+[10.368546] (-) TimerEvent: {}
+[10.469619] (-) TimerEvent: {}
+[10.570701] (-) TimerEvent: {}
+[10.672159] (-) TimerEvent: {}
+[10.773911] (-) TimerEvent: {}
+[10.875733] (-) TimerEvent: {}
+[10.976995] (-) TimerEvent: {}
+[11.078134] (-) TimerEvent: {}
+[11.179467] (-) TimerEvent: {}
+[11.282371] (-) TimerEvent: {}
+[11.291543] (my_ros2_project) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_ros2_project', 'build', '--build-base', '/root/ros2_ws/build/my_ros2_project/build', 'install', '--record', '/root/ros2_ws/build/my_ros2_project/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/my_ros2_project', 'env': {'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces', 'COLCON': '1', 'PYTHONPATH': '/root/ros2_ws/build/my_ros2_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/root/ros2_ws/build/my_ros2_project', 'DEBIAN_FRONTEND': 'noninteractive', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:/opt/ros/humble', 'LANG': 'en_US.UTF-8', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_LOCALHOST_ONLY': '0', 'TERM': 'xterm', 'ROS_VERSION': '2', '_': '/usr/bin/colcon', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_PYTHON_VERSION': '3', 'OLDPWD': '/root', 'HOME': '/root', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'SHLVL': '1', 'HOSTNAME': '05d0bcf9ced5'}, 'shell': False}
+[11.382730] (-) TimerEvent: {}
+[11.483975] (-) TimerEvent: {}
+[11.585052] (-) TimerEvent: {}
+[11.686184] (-) TimerEvent: {}
+[11.787301] (-) TimerEvent: {}
+[11.888540] (-) TimerEvent: {}
+[11.990334] (-) TimerEvent: {}
+[12.091600] (-) TimerEvent: {}
+[12.193021] (-) TimerEvent: {}
+[12.294136] (-) TimerEvent: {}
+[12.395266] (-) TimerEvent: {}
+[12.496941] (-) TimerEvent: {}
+[12.598356] (-) TimerEvent: {}
+[12.699623] (-) TimerEvent: {}
+[12.800888] (-) TimerEvent: {}
+[12.902039] (-) TimerEvent: {}
+[13.003319] (-) TimerEvent: {}
+[13.104630] (-) TimerEvent: {}
+[13.206171] (-) TimerEvent: {}
+[13.307682] (-) TimerEvent: {}
+[13.311648] (my_ros2_project) StdoutLine: {'line': b'running egg_info\n'}
+[13.317737] (my_ros2_project) StdoutLine: {'line': b'writing ../../build/my_ros2_project/my_ros2_project.egg-info/PKG-INFO\n'}
+[13.319353] (my_ros2_project) StdoutLine: {'line': b'writing dependency_links to ../../build/my_ros2_project/my_ros2_project.egg-info/dependency_links.txt\n'}
+[13.320685] (my_ros2_project) StdoutLine: {'line': b'writing entry points to ../../build/my_ros2_project/my_ros2_project.egg-info/entry_points.txt\n'}
+[13.322053] (my_ros2_project) StdoutLine: {'line': b'writing requirements to ../../build/my_ros2_project/my_ros2_project.egg-info/requires.txt\n'}
+[13.323676] (my_ros2_project) StdoutLine: {'line': b'writing top-level names to ../../build/my_ros2_project/my_ros2_project.egg-info/top_level.txt\n'}
+[13.333654] (my_ros2_project) StdoutLine: {'line': b"reading manifest file '../../build/my_ros2_project/my_ros2_project.egg-info/SOURCES.txt'\n"}
+[13.340859] (my_ros2_project) StdoutLine: {'line': b"writing manifest file '../../build/my_ros2_project/my_ros2_project.egg-info/SOURCES.txt'\n"}
+[13.342486] (my_ros2_project) StdoutLine: {'line': b'running build\n'}
+[13.343305] (my_ros2_project) StdoutLine: {'line': b'running build_py\n'}
+[13.344233] (my_ros2_project) StdoutLine: {'line': b'running install\n'}
+[13.346648] (my_ros2_project) StdoutLine: {'line': b'running install_lib\n'}
+[13.357794] (my_ros2_project) StdoutLine: {'line': b'running install_data\n'}
+[13.359449] (my_ros2_project) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.368933] (my_ros2_project) StdoutLine: {'line': b"removing '/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.370869] (my_ros2_project) StdoutLine: {'line': b'Copying ../../build/my_ros2_project/my_ros2_project.egg-info to /root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project-0.0.0-py3.10.egg-info\n'}
+[13.376665] (my_ros2_project) StdoutLine: {'line': b'running install_scripts\n'}
+[13.407975] (-) TimerEvent: {}
+[13.509154] (-) TimerEvent: {}
+[13.545233] (my_ros2_project) StdoutLine: {'line': b'Installing socket_to_ros script to /root/ros2_ws/install/my_ros2_project/lib/my_ros2_project\n'}
+[13.547564] (my_ros2_project) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/my_ros2_project/install.log'\n"}
+[13.609366] (-) TimerEvent: {}
+[13.643235] (my_ros2_project) CommandEnded: {'returncode': 0}
+[13.697158] (my_ros2_project) JobEnded: {'identifier': 'my_ros2_project', 'rc': 0}
+[13.700043] (mybot) JobStarted: {'identifier': 'mybot'}
+[13.709739] (-) TimerEvent: {}
+[13.811145] (-) TimerEvent: {}
+[13.829574] (mybot) JobProgress: {'identifier': 'mybot', 'progress': 'cmake'}
+[13.833150] (mybot) JobProgress: {'identifier': 'mybot', 'progress': 'build'}
+[13.835159] (mybot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/mybot', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/mybot', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/build/mybot'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/opt/ros/humble'), ('LANG', 'en_US.UTF-8'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/root'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', '05d0bcf9ced5')]), 'shell': False}
+[13.911460] (-) TimerEvent: {}
+[14.012713] (-) TimerEvent: {}
+[14.114126] (-) TimerEvent: {}
+[14.215273] (-) TimerEvent: {}
+[14.316396] (-) TimerEvent: {}
+[14.417875] (-) TimerEvent: {}
+[14.519428] (-) TimerEvent: {}
+[14.573138] (mybot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_state_publisher_node\x1b[0m\n'}
+[14.583614] (mybot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target face_tracking_node\x1b[0m\n'}
+[14.619863] (-) TimerEvent: {}
+[14.721843] (-) TimerEvent: {}
+[14.782903] (mybot) StdoutLine: {'line': b'[ 33%] Built target motor_node\n'}
+[14.814929] (mybot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joint_state_publisher_node.dir/src/joint_state_publisher_node.cpp.o\x1b[0m\n'}
+[14.822081] (-) TimerEvent: {}
+[14.833016] (mybot) StdoutLine: {'line': b'[ 83%] Built target face_tracking_node\n'}
+[14.922389] (-) TimerEvent: {}
+[15.023585] (-) TimerEvent: {}
+[15.124675] (-) TimerEvent: {}
+[15.225759] (-) TimerEvent: {}
+[15.327048] (-) TimerEvent: {}
+[15.428172] (-) TimerEvent: {}
+[15.529333] (-) TimerEvent: {}
+[15.630543] (-) TimerEvent: {}
+[15.731712] (-) TimerEvent: {}
+[15.833125] (-) TimerEvent: {}
+[15.934228] (-) TimerEvent: {}
+[16.035558] (-) TimerEvent: {}
+[16.136703] (-) TimerEvent: {}
+[16.238010] (-) TimerEvent: {}
+[16.339299] (-) TimerEvent: {}
+[16.440435] (-) TimerEvent: {}
+[16.541563] (-) TimerEvent: {}
+[16.642742] (-) TimerEvent: {}
+[16.744162] (-) TimerEvent: {}
+[16.845340] (-) TimerEvent: {}
+[16.946735] (-) TimerEvent: {}
+[17.047987] (-) TimerEvent: {}
+[17.149158] (-) TimerEvent: {}
+[17.250383] (-) TimerEvent: {}
+[17.351589] (-) TimerEvent: {}
+[17.452896] (-) TimerEvent: {}
+[17.554314] (-) TimerEvent: {}
+[17.655443] (-) TimerEvent: {}
+[17.756791] (-) TimerEvent: {}
+[17.857939] (-) TimerEvent: {}
+[17.959204] (-) TimerEvent: {}
+[18.060286] (-) TimerEvent: {}
+[18.161406] (-) TimerEvent: {}
+[18.262674] (-) TimerEvent: {}
+[18.364016] (-) TimerEvent: {}
+[18.465216] (-) TimerEvent: {}
+[18.566752] (-) TimerEvent: {}
+[18.668144] (-) TimerEvent: {}
+[18.769722] (-) TimerEvent: {}
+[18.871572] (-) TimerEvent: {}
+[18.973344] (-) TimerEvent: {}
+[19.075026] (-) TimerEvent: {}
+[19.176042] (-) TimerEvent: {}
+[19.277139] (-) TimerEvent: {}
+[19.378253] (-) TimerEvent: {}
+[19.479365] (-) TimerEvent: {}
+[19.580621] (-) TimerEvent: {}
+[19.681826] (-) TimerEvent: {}
+[19.783062] (-) TimerEvent: {}
+[19.884415] (-) TimerEvent: {}
+[19.985924] (-) TimerEvent: {}
+[20.087611] (-) TimerEvent: {}
+[20.188770] (-) TimerEvent: {}
+[20.290206] (-) TimerEvent: {}
+[20.391546] (-) TimerEvent: {}
+[20.492709] (-) TimerEvent: {}
+[20.593805] (-) TimerEvent: {}
+[20.695094] (-) TimerEvent: {}
+[20.796178] (-) TimerEvent: {}
+[20.897600] (-) TimerEvent: {}
+[20.998861] (-) TimerEvent: {}
+[21.100280] (-) TimerEvent: {}
+[21.201528] (-) TimerEvent: {}
+[21.302729] (-) TimerEvent: {}
+[21.403958] (-) TimerEvent: {}
+[21.505248] (-) TimerEvent: {}
+[21.606534] (-) TimerEvent: {}
+[21.707562] (-) TimerEvent: {}
+[21.808561] (-) TimerEvent: {}
+[21.909631] (-) TimerEvent: {}
+[22.010739] (-) TimerEvent: {}
+[22.111917] (-) TimerEvent: {}
+[22.213023] (-) TimerEvent: {}
+[22.314263] (-) TimerEvent: {}
+[22.415385] (-) TimerEvent: {}
+[22.516683] (-) TimerEvent: {}
+[22.618224] (-) TimerEvent: {}
+[22.719877] (-) TimerEvent: {}
+[22.821018] (-) TimerEvent: {}
+[22.922229] (-) TimerEvent: {}
+[23.023681] (-) TimerEvent: {}
+[23.125044] (-) TimerEvent: {}
+[23.226462] (-) TimerEvent: {}
+[23.327633] (-) TimerEvent: {}
+[23.428656] (-) TimerEvent: {}
+[23.529944] (-) TimerEvent: {}
+[23.631144] (-) TimerEvent: {}
+[23.732540] (-) TimerEvent: {}
+[23.834184] (-) TimerEvent: {}
+[23.936005] (-) TimerEvent: {}
+[24.037135] (-) TimerEvent: {}
+[24.138669] (-) TimerEvent: {}
+[24.239916] (-) TimerEvent: {}
+[24.341396] (-) TimerEvent: {}
+[24.442646] (-) TimerEvent: {}
+[24.543751] (-) TimerEvent: {}
+[24.645197] (-) TimerEvent: {}
+[24.746428] (-) TimerEvent: {}
+[24.847674] (-) TimerEvent: {}
+[24.948986] (-) TimerEvent: {}
+[25.050429] (-) TimerEvent: {}
+[25.152385] (-) TimerEvent: {}
+[25.253764] (-) TimerEvent: {}
+[25.354970] (-) TimerEvent: {}
+[25.456327] (-) TimerEvent: {}
+[25.557527] (-) TimerEvent: {}
+[25.658705] (-) TimerEvent: {}
+[25.759820] (-) TimerEvent: {}
+[25.861042] (-) TimerEvent: {}
+[25.962257] (-) TimerEvent: {}
+[26.063630] (-) TimerEvent: {}
+[26.164996] (-) TimerEvent: {}
+[26.266408] (-) TimerEvent: {}
+[26.367740] (-) TimerEvent: {}
+[26.469152] (-) TimerEvent: {}
+[26.570678] (-) TimerEvent: {}
+[26.672114] (-) TimerEvent: {}
+[26.773354] (-) TimerEvent: {}
+[26.874525] (-) TimerEvent: {}
+[26.975641] (-) TimerEvent: {}
+[27.076850] (-) TimerEvent: {}
+[27.178240] (-) TimerEvent: {}
+[27.279911] (-) TimerEvent: {}
+[27.381146] (-) TimerEvent: {}
+[27.482230] (-) TimerEvent: {}
+[27.583971] (-) TimerEvent: {}
+[27.685118] (-) TimerEvent: {}
+[27.786492] (-) TimerEvent: {}
+[27.888076] (-) TimerEvent: {}
+[27.989205] (-) TimerEvent: {}
+[28.090369] (-) TimerEvent: {}
+[28.191450] (-) TimerEvent: {}
+[28.293155] (-) TimerEvent: {}
+[28.394896] (-) TimerEvent: {}
+[28.496656] (-) TimerEvent: {}
+[28.598050] (-) TimerEvent: {}
+[28.699334] (-) TimerEvent: {}
+[28.800966] (-) TimerEvent: {}
+[28.902096] (-) TimerEvent: {}
+[29.003766] (-) TimerEvent: {}
+[29.104881] (-) TimerEvent: {}
+[29.206168] (-) TimerEvent: {}
+[29.307529] (-) TimerEvent: {}
+[29.408789] (-) TimerEvent: {}
+[29.510066] (-) TimerEvent: {}
+[29.611251] (-) TimerEvent: {}
+[29.712581] (-) TimerEvent: {}
+[29.813873] (-) TimerEvent: {}
+[29.915295] (-) TimerEvent: {}
+[30.017809] (-) TimerEvent: {}
+[30.119413] (-) TimerEvent: {}
+[30.220629] (-) TimerEvent: {}
+[30.321864] (-) TimerEvent: {}
+[30.422944] (-) TimerEvent: {}
+[30.523956] (-) TimerEvent: {}
+[30.625606] (-) TimerEvent: {}
+[30.726980] (-) TimerEvent: {}
+[30.828293] (-) TimerEvent: {}
+[30.929462] (-) TimerEvent: {}
+[31.030792] (-) TimerEvent: {}
+[31.133127] (-) TimerEvent: {}
+[31.234395] (-) TimerEvent: {}
+[31.335531] (-) TimerEvent: {}
+[31.436744] (-) TimerEvent: {}
+[31.537852] (-) TimerEvent: {}
+[31.639616] (-) TimerEvent: {}
+[31.740740] (-) TimerEvent: {}
+[31.841790] (-) TimerEvent: {}
+[31.942964] (-) TimerEvent: {}
+[32.044128] (-) TimerEvent: {}
+[32.145246] (-) TimerEvent: {}
+[32.246408] (-) TimerEvent: {}
+[32.347482] (-) TimerEvent: {}
+[32.448977] (-) TimerEvent: {}
+[32.550578] (-) TimerEvent: {}
+[32.652117] (-) TimerEvent: {}
+[32.753189] (-) TimerEvent: {}
+[32.854192] (-) TimerEvent: {}
+[32.955329] (-) TimerEvent: {}
+[33.056567] (-) TimerEvent: {}
+[33.157654] (-) TimerEvent: {}
+[33.258743] (-) TimerEvent: {}
+[33.359893] (-) TimerEvent: {}
+[33.461162] (-) TimerEvent: {}
+[33.562498] (-) TimerEvent: {}
+[33.663759] (-) TimerEvent: {}
+[33.765103] (-) TimerEvent: {}
+[33.866578] (-) TimerEvent: {}
+[33.968039] (-) TimerEvent: {}
+[34.069705] (-) TimerEvent: {}
+[34.171150] (-) TimerEvent: {}
+[34.272191] (-) TimerEvent: {}
+[34.373406] (-) TimerEvent: {}
+[34.474850] (-) TimerEvent: {}
+[34.576607] (-) TimerEvent: {}
+[34.678486] (-) TimerEvent: {}
+[34.779693] (-) TimerEvent: {}
+[34.881095] (-) TimerEvent: {}
+[34.982693] (-) TimerEvent: {}
+[35.084000] (-) TimerEvent: {}
+[35.185760] (-) TimerEvent: {}
+[35.286902] (-) TimerEvent: {}
+[35.388028] (-) TimerEvent: {}
+[35.489161] (-) TimerEvent: {}
+[35.590364] (-) TimerEvent: {}
+[35.691885] (-) TimerEvent: {}
+[35.793010] (-) TimerEvent: {}
+[35.894249] (-) TimerEvent: {}
+[35.995599] (-) TimerEvent: {}
+[36.096829] (-) TimerEvent: {}
+[36.198065] (-) TimerEvent: {}
+[36.299353] (-) TimerEvent: {}
+[36.400530] (-) TimerEvent: {}
+[36.501728] (-) TimerEvent: {}
+[36.602993] (-) TimerEvent: {}
+[36.704101] (-) TimerEvent: {}
+[36.805253] (-) TimerEvent: {}
+[36.906470] (-) TimerEvent: {}
+[37.007661] (-) TimerEvent: {}
+[37.108873] (-) TimerEvent: {}
+[37.210250] (-) TimerEvent: {}
+[37.311355] (-) TimerEvent: {}
+[37.412641] (-) TimerEvent: {}
+[37.514212] (-) TimerEvent: {}
+[37.615594] (-) TimerEvent: {}
+[37.716770] (-) TimerEvent: {}
+[37.817998] (-) TimerEvent: {}
+[37.919227] (-) TimerEvent: {}
+[38.020437] (-) TimerEvent: {}
+[38.121911] (-) TimerEvent: {}
+[38.223155] (-) TimerEvent: {}
+[38.324256] (-) TimerEvent: {}
+[38.425839] (-) TimerEvent: {}
+[38.527307] (-) TimerEvent: {}
+[38.628617] (-) TimerEvent: {}
+[38.729965] (-) TimerEvent: {}
+[38.831666] (-) TimerEvent: {}
+[38.932832] (-) TimerEvent: {}
+[39.034258] (-) TimerEvent: {}
+[39.135628] (-) TimerEvent: {}
+[39.236949] (-) TimerEvent: {}
+[39.337970] (-) TimerEvent: {}
+[39.439060] (-) TimerEvent: {}
+[39.540313] (-) TimerEvent: {}
+[39.641641] (-) TimerEvent: {}
+[39.743225] (-) TimerEvent: {}
+[39.844605] (-) TimerEvent: {}
+[39.945918] (-) TimerEvent: {}
+[40.047606] (-) TimerEvent: {}
+[40.148778] (-) TimerEvent: {}
+[40.250119] (-) TimerEvent: {}
+[40.351722] (-) TimerEvent: {}
+[40.452921] (-) TimerEvent: {}
+[40.554286] (-) TimerEvent: {}
+[40.655258] (-) TimerEvent: {}
+[40.756369] (-) TimerEvent: {}
+[40.857676] (-) TimerEvent: {}
+[40.959197] (-) TimerEvent: {}
+[41.060383] (-) TimerEvent: {}
+[41.161912] (-) TimerEvent: {}
+[41.263834] (-) TimerEvent: {}
+[41.364985] (-) TimerEvent: {}
+[41.466038] (-) TimerEvent: {}
+[41.567170] (-) TimerEvent: {}
+[41.668408] (-) TimerEvent: {}
+[41.769516] (-) TimerEvent: {}
+[41.870708] (-) TimerEvent: {}
+[41.972072] (-) TimerEvent: {}
+[42.073398] (-) TimerEvent: {}
+[42.175108] (-) TimerEvent: {}
+[42.276475] (-) TimerEvent: {}
+[42.377690] (-) TimerEvent: {}
+[42.479233] (-) TimerEvent: {}
+[42.580563] (-) TimerEvent: {}
+[42.681585] (-) TimerEvent: {}
+[42.783033] (-) TimerEvent: {}
+[42.884327] (-) TimerEvent: {}
+[42.985610] (-) TimerEvent: {}
+[43.086827] (-) TimerEvent: {}
+[43.188002] (-) TimerEvent: {}
+[43.289277] (-) TimerEvent: {}
+[43.390793] (-) TimerEvent: {}
+[43.491883] (-) TimerEvent: {}
+[43.593203] (-) TimerEvent: {}
+[43.695705] (-) TimerEvent: {}
+[43.797198] (-) TimerEvent: {}
+[43.898683] (-) TimerEvent: {}
+[43.999969] (-) TimerEvent: {}
+[44.101254] (-) TimerEvent: {}
+[44.202510] (-) TimerEvent: {}
+[44.304083] (-) TimerEvent: {}
+[44.405139] (-) TimerEvent: {}
+[44.506489] (-) TimerEvent: {}
+[44.607824] (-) TimerEvent: {}
+[44.708847] (-) TimerEvent: {}
+[44.809880] (-) TimerEvent: {}
+[44.911297] (-) TimerEvent: {}
+[45.012780] (-) TimerEvent: {}
+[45.114158] (-) TimerEvent: {}
+[45.215566] (-) TimerEvent: {}
+[45.316845] (-) TimerEvent: {}
+[45.418204] (-) TimerEvent: {}
+[45.519499] (-) TimerEvent: {}
+[45.620616] (-) TimerEvent: {}
+[45.721718] (-) TimerEvent: {}
+[45.823256] (-) TimerEvent: {}
+[45.924457] (-) TimerEvent: {}
+[46.025527] (-) TimerEvent: {}
+[46.127604] (-) TimerEvent: {}
+[46.229052] (-) TimerEvent: {}
+[46.330622] (-) TimerEvent: {}
+[46.432018] (-) TimerEvent: {}
+[46.533157] (-) TimerEvent: {}
+[46.634464] (-) TimerEvent: {}
+[46.735654] (-) TimerEvent: {}
+[46.836891] (-) TimerEvent: {}
+[46.938194] (-) TimerEvent: {}
+[47.039469] (-) TimerEvent: {}
+[47.140385] (-) TimerEvent: {}
+[47.241388] (-) TimerEvent: {}
+[47.343328] (-) TimerEvent: {}
+[47.444896] (-) TimerEvent: {}
+[47.546429] (-) TimerEvent: {}
+[47.647552] (-) TimerEvent: {}
+[47.748739] (-) TimerEvent: {}
+[47.850351] (-) TimerEvent: {}
+[47.951898] (-) TimerEvent: {}
+[48.053048] (-) TimerEvent: {}
+[48.154337] (-) TimerEvent: {}
+[48.255707] (-) TimerEvent: {}
+[48.356962] (-) TimerEvent: {}
+[48.458279] (-) TimerEvent: {}
+[48.559569] (-) TimerEvent: {}
+[48.661432] (-) TimerEvent: {}
+[48.763168] (-) TimerEvent: {}
+[48.864702] (-) TimerEvent: {}
+[48.966070] (-) TimerEvent: {}
+[49.067189] (-) TimerEvent: {}
+[49.168267] (-) TimerEvent: {}
+[49.269383] (-) TimerEvent: {}
+[49.370651] (-) TimerEvent: {}
+[49.471758] (-) TimerEvent: {}
+[49.572789] (-) TimerEvent: {}
+[49.673810] (-) TimerEvent: {}
+[49.775000] (-) TimerEvent: {}
+[49.876647] (-) TimerEvent: {}
+[49.977688] (-) TimerEvent: {}
+[50.078719] (-) TimerEvent: {}
+[50.180035] (-) TimerEvent: {}
+[50.281251] (-) TimerEvent: {}
+[50.382820] (-) TimerEvent: {}
+[50.483880] (-) TimerEvent: {}
+[50.584976] (-) TimerEvent: {}
+[50.686368] (-) TimerEvent: {}
+[50.787760] (-) TimerEvent: {}
+[50.889297] (-) TimerEvent: {}
+[50.990424] (-) TimerEvent: {}
+[51.091519] (-) TimerEvent: {}
+[51.192884] (-) TimerEvent: {}
+[51.294079] (-) TimerEvent: {}
+[51.395643] (-) TimerEvent: {}
+[51.496829] (-) TimerEvent: {}
+[51.597880] (-) TimerEvent: {}
+[51.699016] (-) TimerEvent: {}
+[51.800331] (-) TimerEvent: {}
+[51.901616] (-) TimerEvent: {}
+[52.002665] (-) TimerEvent: {}
+[52.103846] (-) TimerEvent: {}
+[52.205130] (-) TimerEvent: {}
+[52.306609] (-) TimerEvent: {}
+[52.408303] (-) TimerEvent: {}
+[52.509405] (-) TimerEvent: {}
+[52.610633] (-) TimerEvent: {}
+[52.711905] (-) TimerEvent: {}
+[52.813384] (-) TimerEvent: {}
+[52.914691] (-) TimerEvent: {}
+[53.015882] (-) TimerEvent: {}
+[53.117122] (-) TimerEvent: {}
+[53.218528] (-) TimerEvent: {}
+[53.320140] (-) TimerEvent: {}
+[53.421927] (-) TimerEvent: {}
+[53.523276] (-) TimerEvent: {}
+[53.624561] (-) TimerEvent: {}
+[53.725870] (-) TimerEvent: {}
+[53.827174] (-) TimerEvent: {}
+[53.928897] (-) TimerEvent: {}
+[54.030424] (-) TimerEvent: {}
+[54.131633] (-) TimerEvent: {}
+[54.232967] (-) TimerEvent: {}
+[54.334293] (-) TimerEvent: {}
+[54.435874] (-) TimerEvent: {}
+[54.537588] (-) TimerEvent: {}
+[54.638713] (-) TimerEvent: {}
+[54.739911] (-) TimerEvent: {}
+[54.841109] (-) TimerEvent: {}
+[54.942687] (-) TimerEvent: {}
+[55.044500] (-) TimerEvent: {}
+[55.145757] (-) TimerEvent: {}
+[55.246997] (-) TimerEvent: {}
+[55.348298] (-) TimerEvent: {}
+[55.449739] (-) TimerEvent: {}
+[55.551381] (-) TimerEvent: {}
+[55.652840] (-) TimerEvent: {}
+[55.753967] (-) TimerEvent: {}
+[55.855190] (-) TimerEvent: {}
+[55.956505] (-) TimerEvent: {}
+[56.058032] (-) TimerEvent: {}
+[56.159382] (-) TimerEvent: {}
+[56.260565] (-) TimerEvent: {}
+[56.361727] (-) TimerEvent: {}
+[56.463245] (-) TimerEvent: {}
+[56.564662] (-) TimerEvent: {}
+[56.666408] (-) TimerEvent: {}
+[56.767572] (-) TimerEvent: {}
+[56.868705] (-) TimerEvent: {}
+[56.970099] (-) TimerEvent: {}
+[57.071482] (-) TimerEvent: {}
+[57.173228] (-) TimerEvent: {}
+[57.274448] (-) TimerEvent: {}
+[57.375727] (-) TimerEvent: {}
+[57.477090] (-) TimerEvent: {}
+[57.578457] (-) TimerEvent: {}
+[57.680148] (-) TimerEvent: {}
+[57.781613] (-) TimerEvent: {}
+[57.882744] (-) TimerEvent: {}
+[57.983800] (-) TimerEvent: {}
+[58.085079] (-) TimerEvent: {}
+[58.186648] (-) TimerEvent: {}
+[58.288070] (-) TimerEvent: {}
+[58.389439] (-) TimerEvent: {}
+[58.490819] (-) TimerEvent: {}
+[58.592210] (-) TimerEvent: {}
+[58.693330] (-) TimerEvent: {}
+[58.794844] (-) TimerEvent: {}
+[58.896033] (-) TimerEvent: {}
+[58.997024] (-) TimerEvent: {}
+[59.098230] (-) TimerEvent: {}
+[59.199938] (-) TimerEvent: {}
+[59.301960] (-) TimerEvent: {}
+[59.403141] (-) TimerEvent: {}
+[59.504298] (-) TimerEvent: {}
+[59.605688] (-) TimerEvent: {}
+[59.706974] (-) TimerEvent: {}
+[59.808502] (-) TimerEvent: {}
+[59.909609] (-) TimerEvent: {}
+[60.010813] (-) TimerEvent: {}
+[60.112022] (-) TimerEvent: {}
+[60.213154] (-) TimerEvent: {}
+[60.314642] (-) TimerEvent: {}
+[60.415711] (-) TimerEvent: {}
+[60.517097] (-) TimerEvent: {}
+[60.618476] (-) TimerEvent: {}
+[60.720045] (-) TimerEvent: {}
+[60.821851] (-) TimerEvent: {}
+[60.923608] (-) TimerEvent: {}
+[61.024757] (-) TimerEvent: {}
+[61.125876] (-) TimerEvent: {}
+[61.227218] (-) TimerEvent: {}
+[61.328718] (-) TimerEvent: {}
+[61.430524] (-) TimerEvent: {}
+[61.531802] (-) TimerEvent: {}
+[61.633100] (-) TimerEvent: {}
+[61.734529] (-) TimerEvent: {}
+[61.835971] (-) TimerEvent: {}
+[61.937624] (-) TimerEvent: {}
+[62.039123] (-) TimerEvent: {}
+[62.140248] (-) TimerEvent: {}
+[62.241512] (-) TimerEvent: {}
+[62.342854] (-) TimerEvent: {}
+[62.444364] (-) TimerEvent: {}
+[62.545697] (-) TimerEvent: {}
+[62.646882] (-) TimerEvent: {}
+[62.747937] (-) TimerEvent: {}
+[62.849261] (-) TimerEvent: {}
+[62.950674] (-) TimerEvent: {}
+[63.051966] (-) TimerEvent: {}
+[63.153172] (-) TimerEvent: {}
+[63.254345] (-) TimerEvent: {}
+[63.355739] (-) TimerEvent: {}
+[63.457267] (-) TimerEvent: {}
+[63.558604] (-) TimerEvent: {}
+[63.659765] (-) TimerEvent: {}
+[63.760940] (-) TimerEvent: {}
+[63.862086] (-) TimerEvent: {}
+[63.963631] (-) TimerEvent: {}
+[64.065068] (-) TimerEvent: {}
+[64.166343] (-) TimerEvent: {}
+[64.267543] (-) TimerEvent: {}
+[64.368823] (-) TimerEvent: {}
+[64.470437] (-) TimerEvent: {}
+[64.572014] (-) TimerEvent: {}
+[64.673264] (-) TimerEvent: {}
+[64.774592] (-) TimerEvent: {}
+[64.875910] (-) TimerEvent: {}
+[64.977228] (-) TimerEvent: {}
+[65.078789] (-) TimerEvent: {}
+[65.180065] (-) TimerEvent: {}
+[65.281286] (-) TimerEvent: {}
+[65.382689] (-) TimerEvent: {}
+[65.483957] (-) TimerEvent: {}
+[65.585415] (-) TimerEvent: {}
+[65.686784] (-) TimerEvent: {}
+[65.788118] (-) TimerEvent: {}
+[65.889421] (-) TimerEvent: {}
+[65.990684] (-) TimerEvent: {}
+[66.092284] (-) TimerEvent: {}
+[66.193692] (-) TimerEvent: {}
+[66.294815] (-) TimerEvent: {}
+[66.396012] (-) TimerEvent: {}
+[66.497159] (-) TimerEvent: {}
+[66.598474] (-) TimerEvent: {}
+[66.699844] (-) TimerEvent: {}
+[66.801092] (-) TimerEvent: {}
+[66.902420] (-) TimerEvent: {}
+[67.003804] (-) TimerEvent: {}
+[67.105100] (-) TimerEvent: {}
+[67.206392] (-) TimerEvent: {}
+[67.307413] (-) TimerEvent: {}
+[67.408499] (-) TimerEvent: {}
+[67.509597] (-) TimerEvent: {}
+[67.610835] (-) TimerEvent: {}
+[67.711859] (-) TimerEvent: {}
+[67.812946] (-) TimerEvent: {}
+[67.914005] (-) TimerEvent: {}
+[68.015298] (-) TimerEvent: {}
+[68.116501] (-) TimerEvent: {}
+[68.217541] (-) TimerEvent: {}
+[68.318700] (-) TimerEvent: {}
+[68.419910] (-) TimerEvent: {}
+[68.520979] (-) TimerEvent: {}
+[68.622127] (-) TimerEvent: {}
+[68.723230] (-) TimerEvent: {}
+[68.824314] (-) TimerEvent: {}
+[68.925602] (-) TimerEvent: {}
+[69.026836] (-) TimerEvent: {}
+[69.127986] (-) TimerEvent: {}
+[69.229299] (-) TimerEvent: {}
+[69.330647] (-) TimerEvent: {}
+[69.432017] (-) TimerEvent: {}
+[69.533253] (-) TimerEvent: {}
+[69.634497] (-) TimerEvent: {}
+[69.735711] (-) TimerEvent: {}
+[69.836925] (-) TimerEvent: {}
+[69.938226] (-) TimerEvent: {}
+[70.039393] (-) TimerEvent: {}
+[70.140571] (-) TimerEvent: {}
+[70.241689] (-) TimerEvent: {}
+[70.342706] (-) TimerEvent: {}
+[70.443763] (-) TimerEvent: {}
+[70.544862] (-) TimerEvent: {}
+[70.646060] (-) TimerEvent: {}
+[70.667782] (mybot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joint_state_publisher_node\x1b[0m\n'}
+[70.746326] (-) TimerEvent: {}
+[70.847683] (-) TimerEvent: {}
+[70.949105] (-) TimerEvent: {}
+[71.050262] (-) TimerEvent: {}
+[71.151516] (-) TimerEvent: {}
+[71.252847] (-) TimerEvent: {}
+[71.353919] (-) TimerEvent: {}
+[71.455288] (-) TimerEvent: {}
+[71.556555] (-) TimerEvent: {}
+[71.657908] (-) TimerEvent: {}
+[71.759399] (-) TimerEvent: {}
+[71.860900] (-) TimerEvent: {}
+[71.962153] (-) TimerEvent: {}
+[72.063601] (-) TimerEvent: {}
+[72.165159] (-) TimerEvent: {}
+[72.266656] (-) TimerEvent: {}
+[72.368264] (-) TimerEvent: {}
+[72.469680] (-) TimerEvent: {}
+[72.496155] (mybot) StdoutLine: {'line': b'[100%] Built target joint_state_publisher_node\n'}
+[72.569934] (-) TimerEvent: {}
+[72.629570] (mybot) CommandEnded: {'returncode': 0}
+[72.633515] (mybot) JobProgress: {'identifier': 'mybot', 'progress': 'install'}
+[72.635433] (mybot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/mybot'], 'cwd': '/root/ros2_ws/build/mybot', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/root/ros2_ws/build/mybot'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/opt/ros/humble'), ('LANG', 'en_US.UTF-8'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/root'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', '05d0bcf9ced5')]), 'shell': False}
+[72.670282] (-) TimerEvent: {}
+[72.771761] (-) TimerEvent: {}
+[72.776013] (mybot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[72.785411] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/lib/mybot/face_tracking_node\n'}
+[72.789239] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/lib/mybot/motor_node\n'}
+[72.790903] (mybot) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/mybot/lib/mybot/joint_state_publisher_node\n'}
+[72.798705] (mybot) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/mybot/lib/mybot/joint_state_publisher_node" to ""\n'}
+[72.800098] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/urdf\n'}
+[72.801740] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/urdf/motor.urdf\n'}
+[72.803411] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/urdf/mybot.urdf\n'}
+[72.804878] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/launch\n'}
+[72.806382] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/launch/mybot_launch.py\n'}
+[72.807769] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/rviz\n'}
+[72.808840] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/rviz/rviz.rviz\n'}
+[72.809911] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/ament_index/resource_index/package_run_dependencies/mybot\n'}
+[72.810824] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/ament_index/resource_index/parent_prefix_path/mybot\n'}
+[72.811705] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/environment/ament_prefix_path.sh\n'}
+[72.812613] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/environment/ament_prefix_path.dsv\n'}
+[72.813484] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/environment/path.sh\n'}
+[72.814346] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/environment/path.dsv\n'}
+[72.815207] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/local_setup.bash\n'}
+[72.816085] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/local_setup.sh\n'}
+[72.816978] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/local_setup.zsh\n'}
+[72.817841] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/local_setup.dsv\n'}
+[72.818706] (mybot) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/mybot/share/mybot/package.dsv\n'}
+[72.819569] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/ament_index/resource_index/packages/mybot\n'}
+[72.820436] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/cmake/mybotConfig.cmake\n'}
+[72.821307] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/cmake/mybotConfig-version.cmake\n'}
+[72.822173] (mybot) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/package.xml\n'}
+[72.837053] (mybot) CommandEnded: {'returncode': 0}
+[72.873294] (-) TimerEvent: {}
+[72.929513] (mybot) JobEnded: {'identifier': 'mybot', 'rc': 0}
+[72.933069] (-) EventReactorShutdown: {}

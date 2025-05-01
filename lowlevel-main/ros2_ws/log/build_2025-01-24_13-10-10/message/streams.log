@@ -1,0 +1,144 @@
+[0.147s] Invoking command in '/root/ros2_ws/build/message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/message -- -j8 -l8
+[1.136s] [  3%] Built target message__cpp
+[1.232s] [ 12%] Built target message__rosidl_generator_c
+[1.473s] [ 12%] Built target ament_cmake_python_copy_message
+[2.159s] [ 22%] Built target message__rosidl_typesupport_cpp
+[2.339s] [ 32%] Built target message__rosidl_typesupport_fastrtps_c
+[2.352s] [ 41%] Built target message__rosidl_typesupport_introspection_cpp
+[2.364s] [ 51%] Built target message__rosidl_typesupport_c
+[2.396s] [ 61%] Built target message__rosidl_typesupport_introspection_c
+[2.418s] [ 70%] Built target message__rosidl_typesupport_fastrtps_cpp
+[2.842s] [ 70%] Built target message
+[3.251s] [ 74%] Built target message__py
+[3.684s] [ 80%] Built target message__rosidl_generator_py
+[4.345s] [ 87%] Built target message__rosidl_typesupport_fastrtps_c__pyext
+[4.367s] [ 93%] Built target message__rosidl_typesupport_c__pyext
+[4.390s] [100%] Built target message__rosidl_typesupport_introspection_c__pyext
+[4.741s] running egg_info
+[4.748s] writing message.egg-info/PKG-INFO
+[4.750s] writing dependency_links to message.egg-info/dependency_links.txt
+[4.752s] writing top-level names to message.egg-info/top_level.txt
+[4.767s] reading manifest file 'message.egg-info/SOURCES.txt'
+[4.772s] writing manifest file 'message.egg-info/SOURCES.txt'
+[4.972s] [100%] Built target ament_cmake_python_build_message_egg
+[5.110s] Invoked command in '/root/ros2_ws/build/message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/message -- -j8 -l8
+[5.241s] Invoking command in '/root/ros2_ws/build/message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/message
+[5.383s] -- Install configuration: ""
+[5.387s] -- Up-to-date: /root/ros2_ws/install/message/share/ament_index/resource_index/rosidl_interfaces/message
+[5.388s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message
+[5.390s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg
+[5.390s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail
+[5.391s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__functions.h
+[5.392s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__functions.c
+[5.393s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__type_support.h
+[5.393s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__struct.h
+[5.394s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_generator_c__visibility_control.h
+[5.395s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/emotion.h
+[5.395s] -- Up-to-date: /root/ros2_ws/install/message/share/message/environment/library_path.sh
+[5.396s] -- Up-to-date: /root/ros2_ws/install/message/share/message/environment/library_path.dsv
+[5.397s] -- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_generator_c.so
+[5.398s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message
+[5.398s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg
+[5.399s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail
+[5.400s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__rosidl_typesupport_fastrtps_c.h
+[5.401s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.402s] -- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so
+[5.405s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message
+[5.407s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg
+[5.408s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail
+[5.410s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__struct.hpp
+[5.411s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__traits.hpp
+[5.413s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__builder.hpp
+[5.415s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__type_support.hpp
+[5.416s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/emotion.hpp
+[5.417s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.418s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message
+[5.419s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg
+[5.420s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail
+[5.422s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__rosidl_typesupport_fastrtps_cpp.hpp
+[5.423s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/dds_fastrtps
+[5.424s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.425s] -- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so
+[5.427s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message
+[5.428s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg
+[5.430s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail
+[5.431s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__type_support.c
+[5.432s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__rosidl_typesupport_introspection_c.h
+[5.432s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.433s] -- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so
+[5.434s] -- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_c.so
+[5.435s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message
+[5.435s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg
+[5.436s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail
+[5.437s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__type_support.cpp
+[5.438s] -- Up-to-date: /root/ros2_ws/install/message/include/message/message/msg/detail/emotion__rosidl_typesupport_introspection_cpp.hpp
+[5.440s] -- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so
+[5.442s] -- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_typesupport_cpp.so
+[5.443s] -- Up-to-date: /root/ros2_ws/install/message/share/message/environment/pythonpath.sh
+[5.443s] -- Up-to-date: /root/ros2_ws/install/message/share/message/environment/pythonpath.dsv
+[5.444s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info
+[5.445s] -- Installing: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.445s] -- Installing: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.446s] -- Installing: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/top_level.txt
+[5.446s] -- Installing: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message-0.0.0-py3.10.egg-info/PKG-INFO
+[5.447s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message
+[5.449s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/__init__.py
+[5.450s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/libmessage__rosidl_generator_py.so
+[5.451s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.452s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.452s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_c.c
+[5.453s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.456s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_introspection_c.c
+[5.456s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg
+[5.457s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg/__init__.py
+[5.457s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg/_emotion.py
+[5.458s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg/_emotion_s.c
+[5.459s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.909s] Listing '/root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message'...
+[5.910s] Listing '/root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/msg'...
+[5.941s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.944s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.945s] -- Up-to-date: /root/ros2_ws/install/message/local/lib/python3.10/dist-packages/message/message_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.947s] -- Up-to-date: /root/ros2_ws/install/message/lib/libmessage__rosidl_generator_py.so
+[5.949s] -- Up-to-date: /root/ros2_ws/install/message/share/message/msg/Emotion.idl
+[5.950s] -- Up-to-date: /root/ros2_ws/install/message/share/message/msg/Emotion.msg
+[5.951s] -- Up-to-date: /root/ros2_ws/install/message/share/ament_index/resource_index/package_run_dependencies/message
+[5.952s] -- Up-to-date: /root/ros2_ws/install/message/share/ament_index/resource_index/parent_prefix_path/message
+[5.952s] -- Up-to-date: /root/ros2_ws/install/message/share/message/environment/ament_prefix_path.sh
+[5.954s] -- Up-to-date: /root/ros2_ws/install/message/share/message/environment/ament_prefix_path.dsv
+[5.955s] -- Up-to-date: /root/ros2_ws/install/message/share/message/environment/path.sh
+[5.955s] -- Up-to-date: /root/ros2_ws/install/message/share/message/environment/path.dsv
+[5.956s] -- Up-to-date: /root/ros2_ws/install/message/share/message/local_setup.bash
+[5.957s] -- Up-to-date: /root/ros2_ws/install/message/share/message/local_setup.sh
+[5.957s] -- Up-to-date: /root/ros2_ws/install/message/share/message/local_setup.zsh
+[5.958s] -- Up-to-date: /root/ros2_ws/install/message/share/message/local_setup.dsv
+[5.959s] -- Installing: /root/ros2_ws/install/message/share/message/package.dsv
+[5.960s] -- Up-to-date: /root/ros2_ws/install/message/share/ament_index/resource_index/packages/message
+[5.961s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_cExport.cmake
+[5.961s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_cExport-noconfig.cmake
+[5.962s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cExport.cmake
+[5.963s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.964s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_cppExport.cmake
+[5.965s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.966s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.966s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cExport.cmake
+[5.967s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.968s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_cExport.cmake
+[5.969s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_cExport-noconfig.cmake
+[5.970s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cppExport.cmake
+[5.970s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.971s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_cppExport.cmake
+[5.972s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/message__rosidl_typesupport_cppExport-noconfig.cmake
+[5.973s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_pyExport.cmake
+[5.974s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/export_message__rosidl_generator_pyExport-noconfig.cmake
+[5.975s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/rosidl_cmake-extras.cmake
+[5.975s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.976s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.976s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake
+[5.977s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/ament_cmake_export_targets-extras.cmake
+[5.977s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.978s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.979s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/messageConfig.cmake
+[5.979s] -- Up-to-date: /root/ros2_ws/install/message/share/message/cmake/messageConfig-version.cmake
+[5.980s] -- Up-to-date: /root/ros2_ws/install/message/share/message/package.xml
+[6.044s] Invoked command in '/root/ros2_ws/build/message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/message

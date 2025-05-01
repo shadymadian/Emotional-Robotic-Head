@@ -1,0 +1,2 @@
+Invoking command in '/home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces': _=/usr/bin/env /usr/bin/cmake --build /home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces -- -j8 -l8
+Invoked command in '/home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces' returned '1': _=/usr/bin/env /usr/bin/cmake --build /home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces -- -j8 -l8

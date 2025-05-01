@@ -1,0 +1,43 @@
+[0.120s] Invoking command in '/root/ros2_ws/build/mybot': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message CMAKE_PREFIX_PATH=/root/ros2_ws/install/message LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_ws/build/mybot -- -j8 -l8
+[0.848s] [35m[1mConsolidate compiler generated dependencies of target joint_state_publisher_node[0m
+[0.856s] [35m[1mConsolidate compiler generated dependencies of target face_tracking_node[0m
+[1.061s] [ 33%] Built target motor_node
+[1.091s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_state_publisher_node.dir/src/joint_state_publisher_node.cpp.o[0m
+[1.108s] [ 66%] [32mBuilding CXX object CMakeFiles/face_tracking_node.dir/src/face_tracking_node.cpp.o[0m
+[63.967s] [ 83%] [32m[1mLinking CXX executable joint_state_publisher_node[0m
+[66.100s] [ 83%] Built target joint_state_publisher_node
+[97.216s] [100%] [32m[1mLinking CXX executable face_tracking_node[0m
+[100.387s] [100%] Built target face_tracking_node
+[100.514s] Invoked command in '/root/ros2_ws/build/mybot' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message CMAKE_PREFIX_PATH=/root/ros2_ws/install/message LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_ws/build/mybot -- -j8 -l8
+[100.522s] Invoking command in '/root/ros2_ws/build/mybot': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message CMAKE_PREFIX_PATH=/root/ros2_ws/install/message LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages /usr/bin/cmake --install /root/ros2_ws/build/mybot
+[100.650s] -- Install configuration: ""
+[100.658s] -- Installing: /root/ros2_ws/install/mybot/lib/mybot/face_tracking_node
+[100.669s] -- Set runtime path of "/root/ros2_ws/install/mybot/lib/mybot/face_tracking_node" to ""
+[100.670s] -- Up-to-date: /root/ros2_ws/install/mybot/lib/mybot/motor_node
+[100.671s] -- Installing: /root/ros2_ws/install/mybot/lib/mybot/joint_state_publisher_node
+[100.675s] -- Set runtime path of "/root/ros2_ws/install/mybot/lib/mybot/joint_state_publisher_node" to ""
+[100.676s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/urdf
+[100.677s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/urdf/motor.urdf
+[100.678s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/urdf/mybot.urdf
+[100.680s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/launch
+[100.681s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/launch/__pycache__
+[100.681s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/launch/__pycache__/mybot_launch.cpython-310.pyc
+[100.682s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/launch/mybot_launch.py
+[100.683s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/rviz
+[100.684s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/rviz/rviz.rviz
+[100.684s] -- Up-to-date: /root/ros2_ws/install/mybot/share/ament_index/resource_index/package_run_dependencies/mybot
+[100.685s] -- Up-to-date: /root/ros2_ws/install/mybot/share/ament_index/resource_index/parent_prefix_path/mybot
+[100.686s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/environment/ament_prefix_path.sh
+[100.686s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/environment/ament_prefix_path.dsv
+[100.687s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/environment/path.sh
+[100.687s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/environment/path.dsv
+[100.688s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/local_setup.bash
+[100.688s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/local_setup.sh
+[100.689s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/local_setup.zsh
+[100.690s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/local_setup.dsv
+[100.690s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/package.dsv
+[100.691s] -- Up-to-date: /root/ros2_ws/install/mybot/share/ament_index/resource_index/packages/mybot
+[100.691s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/cmake/mybotConfig.cmake
+[100.692s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/cmake/mybotConfig-version.cmake
+[100.692s] -- Up-to-date: /root/ros2_ws/install/mybot/share/mybot/package.xml
+[100.705s] Invoked command in '/root/ros2_ws/build/mybot' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message CMAKE_PREFIX_PATH=/root/ros2_ws/install/message LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages /usr/bin/cmake --install /root/ros2_ws/build/mybot

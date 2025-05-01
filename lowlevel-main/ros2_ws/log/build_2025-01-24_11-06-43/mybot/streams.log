@@ -1,0 +1,57 @@
+[0.151s] Invoking command in '/root/ros2_ws/build/mybot': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/mybot -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/mybot
+[1.487s] -- The C compiler identification is GNU 11.4.0
+[2.639s] -- The CXX compiler identification is GNU 11.4.0
+[2.742s] -- Detecting C compiler ABI info
+[4.351s] -- Detecting C compiler ABI info - done
+[4.459s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.462s] -- Detecting C compile features
+[4.467s] -- Detecting C compile features - done
+[4.496s] -- Detecting CXX compiler ABI info
+[6.077s] -- Detecting CXX compiler ABI info - done
+[6.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.189s] -- Detecting CXX compile features
+[6.196s] -- Detecting CXX compile features - done
+[6.220s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.890s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.993s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[10.290s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.332s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.410s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.254s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.277s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.660s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.782s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.034s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.106s] -- Looking for pthread.h
+[15.044s] -- Looking for pthread.h - found
+[15.047s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.083s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.091s] -- Found Threads: TRUE  
+[17.691s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[18.803s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[18.852s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[18.872s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[18.873s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.892s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[18.968s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[18.969s]   By not providing "Findmybot_interfaces.cmake" in CMAKE_MODULE_PATH this
+[18.969s]   project has asked CMake to find a package configuration file provided by
+[18.970s]   "mybot_interfaces", but CMake did not find one.
+[18.970s] 
+[18.971s]   Could not find a package configuration file provided by "mybot_interfaces"
+[18.971s]   with any of the following names:
+[18.972s] 
+[18.972s]     mybot_interfacesConfig.cmake
+[18.973s]     mybot_interfaces-config.cmake
+[18.973s] 
+[18.974s]   Add the installation prefix of "mybot_interfaces" to CMAKE_PREFIX_PATH or
+[18.975s]   set "mybot_interfaces_DIR" to a directory containing one of the above
+[18.975s]   files.  If "mybot_interfaces" provides a separate development package or
+[18.976s]   SDK, be sure it has been installed.
+[18.976s] 
+[18.977s] [0m
+[18.977s] -- Configuring incomplete, errors occurred!
+[18.978s] See also "/root/ros2_ws/build/mybot/CMakeFiles/CMakeOutput.log".
+[19.011s] Invoked command in '/root/ros2_ws/build/mybot' returned '1': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/mybot -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/mybot

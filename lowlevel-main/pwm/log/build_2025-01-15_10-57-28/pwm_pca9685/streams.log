@@ -1,0 +1,71 @@
+[0.105s] Invoking command in '/root/pwm/build/pwm_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/pwm/pwm_pca9685 -DCMAKE_INSTALL_PREFIX=/root/pwm/install/pwm_pca9685
+[1.206s] -- The C compiler identification is GNU 11.4.0
+[2.135s] -- The CXX compiler identification is GNU 11.4.0
+[2.221s] -- Detecting C compiler ABI info
+[3.537s] -- Detecting C compiler ABI info - done
+[3.624s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.626s] -- Detecting C compile features
+[3.630s] -- Detecting C compile features - done
+[3.653s] -- Detecting CXX compiler ABI info
+[4.947s] -- Detecting CXX compiler ABI info - done
+[5.037s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.038s] -- Detecting CXX compile features
+[5.043s] -- Detecting CXX compile features - done
+[5.064s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.204s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.974s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[8.195s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.225s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.281s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.826s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.840s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.880s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.985s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.170s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.210s] -- Looking for pthread.h
+[11.442s] -- Looking for pthread.h - found
+[11.444s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.741s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.747s] -- Found Threads: TRUE  
+[13.192s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[14.038s] -- Configuring done
+[14.152s] -- Generating done
+[14.208s] -- Build files have been written to: /root/pwm/build/pwm_pca9685
+[14.249s] Invoked command in '/root/pwm/build/pwm_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/pwm/pwm_pca9685 -DCMAKE_INSTALL_PREFIX=/root/pwm/install/pwm_pca9685
+[14.261s] Invoking command in '/root/pwm/build/pwm_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/pwm/build/pwm_pca9685 -- -j8 -l8
+[15.097s] [ 25%] [32mBuilding CXX object CMakeFiles/mixer_node.dir/src/mixer_node.cpp.o[0m
+[15.108s] [ 50%] [32mBuilding CXX object CMakeFiles/pca9685_node.dir/src/pca9685_node.cpp.o[0m
+[101.304s] [ 75%] [32m[1mLinking CXX executable pca9685_node[0m
+[104.238s] [ 75%] Built target pca9685_node
+[105.446s] [100%] [32m[1mLinking CXX executable mixer_node[0m
+[108.048s] [100%] Built target mixer_node
+[108.177s] Invoked command in '/root/pwm/build/pwm_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/pwm/build/pwm_pca9685 -- -j8 -l8
+[108.301s] Invoking command in '/root/pwm/build/pwm_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/pwm/build/pwm_pca9685
+[108.434s] -- Install configuration: ""
+[108.439s] -- Installing: /root/pwm/install/pwm_pca9685/lib/pwm_pca9685/pca9685_node
+[108.452s] -- Set runtime path of "/root/pwm/install/pwm_pca9685/lib/pwm_pca9685/pca9685_node" to ""
+[108.453s] -- Installing: /root/pwm/install/pwm_pca9685/lib/pwm_pca9685/mixer_node
+[108.458s] -- Set runtime path of "/root/pwm/install/pwm_pca9685/lib/pwm_pca9685/mixer_node" to ""
+[108.459s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/config
+[108.460s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/config/pwm_diff_drive.config.yaml
+[108.461s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/config/esc_diff_drive.config.yaml
+[108.462s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/launch
+[108.463s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/launch/esc_diff_drive.launch.py
+[108.464s] -- Installing: /root/pwm/install/pwm_pca9685/share/ament_index/resource_index/package_run_dependencies/pwm_pca9685
+[108.465s] -- Installing: /root/pwm/install/pwm_pca9685/share/ament_index/resource_index/parent_prefix_path/pwm_pca9685
+[108.466s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/environment/ament_prefix_path.sh
+[108.467s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/environment/ament_prefix_path.dsv
+[108.468s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/environment/path.sh
+[108.468s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/environment/path.dsv
+[108.469s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/local_setup.bash
+[108.469s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/local_setup.sh
+[108.470s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/local_setup.zsh
+[108.470s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/local_setup.dsv
+[108.471s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/package.dsv
+[108.472s] -- Installing: /root/pwm/install/pwm_pca9685/share/ament_index/resource_index/packages/pwm_pca9685
+[108.472s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/cmake/pwm_pca9685Config.cmake
+[108.473s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/cmake/pwm_pca9685Config-version.cmake
+[108.473s] -- Installing: /root/pwm/install/pwm_pca9685/share/pwm_pca9685/package.xml
+[108.486s] Invoked command in '/root/pwm/build/pwm_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/pwm/build/pwm_pca9685

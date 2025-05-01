@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_state_publisher_node[0m
+[35m[1mConsolidate compiler generated dependencies of target face_tracking_node[0m
+[ 33%] Built target motor_node
+[ 66%] Built target joint_state_publisher_node
+[ 83%] [32mBuilding CXX object CMakeFiles/face_tracking_node.dir/src/face_tracking_node.cpp.o[0m

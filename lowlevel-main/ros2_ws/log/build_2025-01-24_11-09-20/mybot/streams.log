@@ -1,0 +1,65 @@
+[0.135s] Invoking command in '/root/ros2_ws/build/mybot': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /root/ros2_ws/src/mybot -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/mybot
+[0.357s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.893s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.093s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.118s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.168s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.671s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.682s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.192s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.648s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.532s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.559s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.570s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.584s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.649s] -- Found mybot_interfaces: 0.0.0 (/root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake)
+[4.993s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[5.092s] -- Found message: 0.0.0 (/root/ros2_ws/install/message/share/message/cmake)
+[6.020s] -- Configuring done
+[6.301s] -- Generating done
+[6.390s] -- Build files have been written to: /root/ros2_ws/build/mybot
+[6.437s] Invoked command in '/root/ros2_ws/build/mybot' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /root/ros2_ws/src/mybot -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/mybot
+[6.445s] Invoking command in '/root/ros2_ws/build/mybot': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_ws/build/mybot -- -j8 -l8
+[7.303s] [ 16%] [32mBuilding CXX object CMakeFiles/motor_node.dir/src/motor_node.cpp.o[0m
+[7.305s] [ 33%] [32mBuilding CXX object CMakeFiles/face_tracking_node.dir/src/face_tracking_node.cpp.o[0m
+[7.306s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_state_publisher_node.dir/src/joint_state_publisher_node.cpp.o[0m
+[85.258s] [ 66%] [32m[1mLinking CXX executable joint_state_publisher_node[0m
+[87.867s] [ 66%] Built target joint_state_publisher_node
+[107.192s] [ 83%] [32m[1mLinking CXX executable motor_node[0m
+[110.506s] [ 83%] Built target motor_node
+[122.191s] [100%] [32m[1mLinking CXX executable face_tracking_node[0m
+[125.355s] [100%] Built target face_tracking_node
+[125.485s] Invoked command in '/root/ros2_ws/build/mybot' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /root/ros2_ws/build/mybot -- -j8 -l8
+[125.494s] Invoking command in '/root/ros2_ws/build/mybot': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /root/ros2_ws/build/mybot
+[125.624s] -- Install configuration: ""
+[125.629s] -- Installing: /root/ros2_ws/install/mybot/lib/mybot/face_tracking_node
+[125.643s] -- Set runtime path of "/root/ros2_ws/install/mybot/lib/mybot/face_tracking_node" to ""
+[125.644s] -- Installing: /root/ros2_ws/install/mybot/lib/mybot/motor_node
+[125.648s] -- Set runtime path of "/root/ros2_ws/install/mybot/lib/mybot/motor_node" to ""
+[125.649s] -- Installing: /root/ros2_ws/install/mybot/lib/mybot/joint_state_publisher_node
+[125.652s] -- Set runtime path of "/root/ros2_ws/install/mybot/lib/mybot/joint_state_publisher_node" to ""
+[125.653s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/urdf
+[125.655s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/urdf/motor.urdf
+[125.656s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/urdf/mybot.urdf
+[125.657s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/launch
+[125.657s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/launch/mybot_launch.py
+[125.659s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/rviz
+[125.660s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/rviz/rviz.rviz
+[125.661s] -- Installing: /root/ros2_ws/install/mybot/share/ament_index/resource_index/package_run_dependencies/mybot
+[125.661s] -- Installing: /root/ros2_ws/install/mybot/share/ament_index/resource_index/parent_prefix_path/mybot
+[125.662s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/environment/ament_prefix_path.sh
+[125.663s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/environment/ament_prefix_path.dsv
+[125.663s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/environment/path.sh
+[125.664s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/environment/path.dsv
+[125.665s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/local_setup.bash
+[125.665s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/local_setup.sh
+[125.666s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/local_setup.zsh
+[125.667s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/local_setup.dsv
+[125.667s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/package.dsv
+[125.668s] -- Installing: /root/ros2_ws/install/mybot/share/ament_index/resource_index/packages/mybot
+[125.668s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/cmake/mybotConfig.cmake
+[125.669s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/cmake/mybotConfig-version.cmake
+[125.669s] -- Installing: /root/ros2_ws/install/mybot/share/mybot/package.xml
+[125.686s] Invoked command in '/root/ros2_ws/build/mybot' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/my_ros2_project:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/message:/opt/ros/humble CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /root/ros2_ws/build/mybot

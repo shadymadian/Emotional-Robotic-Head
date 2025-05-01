@@ -1,0 +1,33 @@
+[  3%] Built target message__cpp
+[ 12%] Built target message__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_message
+[ 22%] Built target message__rosidl_typesupport_introspection_cpp
+[ 32%] Built target message__rosidl_typesupport_cpp
+[ 51%] Built target message__rosidl_typesupport_c
+[ 51%] Built target message__rosidl_typesupport_introspection_c
+[ 61%] Built target message__rosidl_typesupport_fastrtps_c
+[ 70%] Built target message__rosidl_typesupport_fastrtps_cpp
+Traceback (most recent call last):
+  File "/root/ros2_ws/build/message/ament_cmake_python/message/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+    from distutils.dist import Distribution
+  File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/message.dir/all] Interrupt
+    from distutils.fancy_getopt import FancyGetopt, translate_longopt
+  File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 12, in <module>
+    import getopt
+  File "/usr/lib/python3.10/getopt.py", line 38, in <module>
+    from gettext import gettext as _
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 577, in module_from_spec
+  File "<frozen importlib._bootstrap>", line 558, in _init_module_attrs
+  File "<frozen importlib._bootstrap>", line 391, in cached
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_message_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_message_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_message_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

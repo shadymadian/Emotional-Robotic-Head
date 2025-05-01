@@ -1,0 +1,5 @@
+[0.026s] Invoking command in '/home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces': _=/usr/bin/env /usr/bin/cmake --build /home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces -- -j8 -l8
+[0.133s] [0mCMake Error: The current CMakeCache.txt directory /home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces/CMakeCache.txt is different than the directory /root/ros2_ws/build/mybot_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.142s] no such file or directory
+[0.143s] [0mCMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile -j8 -l8[0m
+[0.162s] Invoked command in '/home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces' returned '1': _=/usr/bin/env /usr/bin/cmake --build /home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces -- -j8 -l8

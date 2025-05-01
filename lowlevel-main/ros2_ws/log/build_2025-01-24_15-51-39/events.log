@@ -1,0 +1,28 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.000261] (mybot_interfaces) JobQueued: {'identifier': 'mybot_interfaces', 'dependencies': OrderedDict()}
+[0.000282] (my_ros2_project) JobQueued: {'identifier': 'my_ros2_project', 'dependencies': OrderedDict({'message': '/home/myura/Desktop/docker_mount/ros2_ws/install/message'})}
+[0.000318] (mybot) JobQueued: {'identifier': 'mybot', 'dependencies': OrderedDict({'message': '/home/myura/Desktop/docker_mount/ros2_ws/install/message', 'my_ros2_project': '/home/myura/Desktop/docker_mount/ros2_ws/install/my_ros2_project'})}
+[0.000338] (message) JobStarted: {'identifier': 'message'}
+[0.026130] (mybot_interfaces) JobStarted: {'identifier': 'mybot_interfaces'}
+[0.028171] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.029325] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.029357] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/myura/Desktop/docker_mount/ros2_ws/build/message', '--', '-j8', '-l8'], 'cwd': '/home/myura/Desktop/docker_mount/ros2_ws/build/message', 'env': OrderedDict({'SHELL': '/bin/bash', 'COLORTERM': 'truecolor', 'SUDO_GID': '1000', 'SUDO_COMMAND': './auto.sh', 'SUDO_USER': 'myura', 'PWD': '/home/myura/Desktop/docker_mount/ros2_ws/build/message', 'LOGNAME': 'root', 'SUDO_HOME': '/home/myura', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Hyprland', 'COLCON': '1', 'TERM': 'xterm-kitty', 'USER': 'root', 'DISPLAY': ':1', 'SHLVL': '1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/bin', 'SUDO_UID': '1000', 'MAIL': '/var/mail/root', 'OLDPWD': '/home/myura/Desktop', '_': '/usr/bin/env'}), 'shell': False}
+[0.041850] (mybot_interfaces) JobProgress: {'identifier': 'mybot_interfaces', 'progress': 'cmake'}
+[0.044591] (mybot_interfaces) JobProgress: {'identifier': 'mybot_interfaces', 'progress': 'build'}
+[0.046723] (mybot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces', 'env': OrderedDict({'SHELL': '/bin/bash', 'COLORTERM': 'truecolor', 'SUDO_GID': '1000', 'SUDO_COMMAND': './auto.sh', 'SUDO_USER': 'myura', 'PWD': '/home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces', 'LOGNAME': 'root', 'SUDO_HOME': '/home/myura', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Hyprland', 'COLCON': '1', 'TERM': 'xterm-kitty', 'USER': 'root', 'DISPLAY': ':1', 'SHLVL': '1', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/bin', 'SUDO_UID': '1000', 'MAIL': '/var/mail/root', 'OLDPWD': '/home/myura/Desktop', '_': '/usr/bin/env'}), 'shell': False}
+[0.099352] (-) TimerEvent: {}
+[0.158147] (message) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/myura/Desktop/docker_mount/ros2_ws/build/message/CMakeCache.txt is different than the directory /root/ros2_ws/build/message where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.158872] (mybot_interfaces) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/myura/Desktop/docker_mount/ros2_ws/build/mybot_interfaces/CMakeCache.txt is different than the directory /root/ros2_ws/build/mybot_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.166910] (message) StderrLine: {'line': b'no such file or directory\n'}
+[0.167552] (mybot_interfaces) StderrLine: {'line': b'no such file or directory\n'}
+[0.168268] (message) StderrLine: {'line': b'\x1b[0mCMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile -j8 -l8\x1b[0m\n'}
+[0.168672] (mybot_interfaces) StderrLine: {'line': b'\x1b[0mCMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile -j8 -l8\x1b[0m\n'}
+[0.184266] (message) CommandEnded: {'returncode': 1}
+[0.187798] (mybot_interfaces) CommandEnded: {'returncode': 1}
+[0.199564] (-) TimerEvent: {}
+[0.278825] (message) JobEnded: {'identifier': 'message', 'rc': 1}
+[0.279606] (mybot_interfaces) JobEnded: {'identifier': 'mybot_interfaces', 'rc': 'SIGINT'}
+[0.290669] (my_ros2_project) JobSkipped: {'identifier': 'my_ros2_project'}
+[0.290953] (mybot) JobSkipped: {'identifier': 'mybot'}
+[0.291055] (-) EventReactorShutdown: {}

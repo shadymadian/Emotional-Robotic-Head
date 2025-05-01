@@ -1,0 +1,7 @@
+# Request
+string message
+int32 number
+
+---
+# Response
+bool responsed

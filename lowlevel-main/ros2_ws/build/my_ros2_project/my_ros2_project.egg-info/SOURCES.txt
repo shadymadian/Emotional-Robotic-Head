@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_ros2_project/my_ros2_project.egg-info/PKG-INFO
+../../build/my_ros2_project/my_ros2_project.egg-info/SOURCES.txt
+../../build/my_ros2_project/my_ros2_project.egg-info/dependency_links.txt
+../../build/my_ros2_project/my_ros2_project.egg-info/entry_points.txt
+../../build/my_ros2_project/my_ros2_project.egg-info/requires.txt
+../../build/my_ros2_project/my_ros2_project.egg-info/top_level.txt
+../../build/my_ros2_project/my_ros2_project.egg-info/zip-safe
+my_ros2_project/__init__.py
+my_ros2_project/socket_to_ros.py
+resource/my_ros2_project
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

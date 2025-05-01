@@ -1,0 +1,32 @@
+float64 angle_motor_1_1         # joint_1_1 winkel
+float64 angle_motor_1_2         # joint_1_2 winkel
+float64 angle_motor_1_3         # joint_1_3 winkel
+float64 angle_motor_1_4         # joint_1_4 winkel
+float64 angle_motor_1_5         # joint_1_5 winkel
+float64 angle_motor_1_6         # joint_1_6 winkel
+float64 angle_motor_2_1         # joint_2_1 winkel
+float64 angle_motor_2_2         # joint_2_2 winkel
+float64 angle_motor_2_3         # joint_2_3 winkel
+float64 angle_motor_2_4         # joint_2_4 winkel
+float64 angle_motor_2_5         # joint_2_5 winkel
+float64 angle_motor_2_6         # joint_2_6 winkel
+float64 angle_motor_3_1         # joint_3_1 winkel
+float64 angle_motor_3_2         # joint_3_2 winkel
+float64 angle_motor_3_3         # joint_3_3 winkel
+float64 angle_motor_1_1_set     # joint_1_1 gesetzt?
+float64 angle_motor_1_2_set     # joint_1_2 gesetzt?
+float64 angle_motor_1_3_set     # joint_1_3 gesetzt?
+float64 angle_motor_1_4_set     # joint_1_4 gesetzt?
+float64 angle_motor_1_5_set     # joint_1_5 gesetzt?
+float64 angle_motor_1_6_set     # joint_1_6 gesetzt?
+float64 angle_motor_2_1_set     # joint_2_1 gesetzt?
+float64 angle_motor_2_2_set     # joint_2_2 gesetzt?
+float64 angle_motor_2_3_set     # joint_2_3 gesetzt?
+float64 angle_motor_2_4_set     # joint_2_4 gesetzt?
+float64 angle_motor_2_5_set     # joint_2_5 gesetzt?
+float64 angle_motor_2_6_set     # joint_2_6 gesetzt?
+float64 angle_motor_3_1_set     # joint_3_1 gesetzt?
+float64 angle_motor_3_2_set     # joint_3_2 gesetzt?
+float64 angle_motor_3_3_set     # joint_3_3 gesetzt?
+---
+bool success            # 返回是否成功

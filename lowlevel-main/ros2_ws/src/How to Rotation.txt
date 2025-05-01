@@ -1,0 +1,10 @@
+Command for node Openning:
+ros2 run mybot motor_node.cpp #kann man weg lassen
+ros2 run mybot joint_state_publisher_node.cpp #kann man weg lassen
+ros2 launch mybot mybot_launch.py
+
+Angle update: werte in radiant
+ros2 service call /set_joint_angles mybot_interfaces/srv/Rotate "{angle_motor_1_1 : 0.785,angle_motor_1_2 : 0.0, angle_motor_1_4 : 0.0,angle_motor_1_5 : 0.0, angle_motor_1_6 : 0.0, angle_motor_2_1 : 0.785,angle_motor_2_2 : 0.0, angle_motor_2_4 : 1.14,angle_motor_2_5 : 0.02,angle_motor_2_6 : 0.0, angle_motor_3_1 : 0.17,angle_motor_3_2 : 1.57,angle_motor_3_1 : 0.0}"
+
+sicht update: werte in koodinaten(vektor)
+ros2 service call /set_target_coordinates mybot_interfaces/srv/SetCoordinates "{coordinates: {x: 0, y: 0, z: 0}}"

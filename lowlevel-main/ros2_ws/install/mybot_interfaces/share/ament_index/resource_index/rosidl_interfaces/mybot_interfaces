@@ -1,0 +1,8 @@
+srv/Rotate.idl
+srv/Rotate.srv
+srv/Rotate_Request.msg
+srv/Rotate_Response.msg
+srv/SetCoordinates.idl
+srv/SetCoordinates.srv
+srv/SetCoordinates_Request.msg
+srv/SetCoordinates_Response.msg

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mybot/srv/Rotate.srv
+// generated code does not contain a copyright notice
+
+
+module mybot {
+  module srv {
+    struct Rotate_Request {
+      @verbatim (language="comment", text=
+        "输入角度（单位：度）")
+      double angle;
+    };
+    struct Rotate_Response {
+      @verbatim (language="comment", text=
+        "响应是否成功")
+      boolean success;
+    };
+  };
+};

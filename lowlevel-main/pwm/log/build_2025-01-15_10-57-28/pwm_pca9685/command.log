@@ -1,0 +1,6 @@
+Invoking command in '/root/pwm/build/pwm_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/pwm/pwm_pca9685 -DCMAKE_INSTALL_PREFIX=/root/pwm/install/pwm_pca9685
+Invoked command in '/root/pwm/build/pwm_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/pwm/pwm_pca9685 -DCMAKE_INSTALL_PREFIX=/root/pwm/install/pwm_pca9685
+Invoking command in '/root/pwm/build/pwm_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/pwm/build/pwm_pca9685 -- -j8 -l8
+Invoked command in '/root/pwm/build/pwm_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/pwm/build/pwm_pca9685 -- -j8 -l8
+Invoking command in '/root/pwm/build/pwm_pca9685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/pwm/build/pwm_pca9685
+Invoked command in '/root/pwm/build/pwm_pca9685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/pwm/build/pwm_pca9685

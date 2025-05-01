@@ -1,0 +1,2 @@
+/root/ros2_ws/build/mybot_interfaces/rosidl_adapter/mybot_interfaces:srv/Rotate.idl
+/root/ros2_ws/build/mybot_interfaces/rosidl_adapter/mybot_interfaces:srv/SetCoordinates.idl

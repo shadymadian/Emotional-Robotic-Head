@@ -1,0 +1,12 @@
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/uninstall.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/mybot_uninstall.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/motor_node.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/face_tracking_node.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/joint_state_publisher_node.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/test.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/edit_cache.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/rebuild_cache.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/list_install_components.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/install.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/install/local.dir
+/home/linhao/ros2_ws/src/mybot/build/CMakeFiles/install/strip.dir

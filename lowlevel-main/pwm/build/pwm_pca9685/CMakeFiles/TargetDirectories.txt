@@ -1,0 +1,11 @@
+/root/pwm/build/pwm_pca9685/CMakeFiles/uninstall.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/pwm_pca9685_uninstall.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/mixer_node.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/pca9685_node.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/test.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/edit_cache.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/rebuild_cache.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/list_install_components.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/install.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/install/local.dir
+/root/pwm/build/pwm_pca9685/CMakeFiles/install/strip.dir

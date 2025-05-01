@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mybot_interfaces/srv/SetCoordinates.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module mybot_interfaces {
+  module srv {
+    struct SetCoordinates_Request {
+      geometry_msgs::msg::Point coordinates;
+    };
+    struct SetCoordinates_Response {
+      boolean success;
+    };
+  };
+};

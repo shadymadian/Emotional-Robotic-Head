@@ -1,0 +1,9 @@
+setup.py
+mybot_interfaces/__init__.py
+mybot_interfaces.egg-info/PKG-INFO
+mybot_interfaces.egg-info/SOURCES.txt
+mybot_interfaces.egg-info/dependency_links.txt
+mybot_interfaces.egg-info/top_level.txt
+mybot_interfaces/srv/__init__.py
+mybot_interfaces/srv/_rotate.py
+mybot_interfaces/srv/_set_coordinates.py

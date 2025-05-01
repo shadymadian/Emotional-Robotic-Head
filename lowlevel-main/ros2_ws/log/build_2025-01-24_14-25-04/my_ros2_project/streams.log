@@ -1,0 +1,21 @@
+[4.375s] Invoking command in '/root/ros2_ws/src/my_ros2_project': CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/build/my_ros2_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_project build --build-base /root/ros2_ws/build/my_ros2_project/build install --record /root/ros2_ws/build/my_ros2_project/install.log --single-version-externally-managed install_data
+[6.145s] running egg_info
+[6.151s] writing ../../build/my_ros2_project/my_ros2_project.egg-info/PKG-INFO
+[6.152s] writing dependency_links to ../../build/my_ros2_project/my_ros2_project.egg-info/dependency_links.txt
+[6.153s] writing entry points to ../../build/my_ros2_project/my_ros2_project.egg-info/entry_points.txt
+[6.155s] writing requirements to ../../build/my_ros2_project/my_ros2_project.egg-info/requires.txt
+[6.156s] writing top-level names to ../../build/my_ros2_project/my_ros2_project.egg-info/top_level.txt
+[6.165s] reading manifest file '../../build/my_ros2_project/my_ros2_project.egg-info/SOURCES.txt'
+[6.172s] writing manifest file '../../build/my_ros2_project/my_ros2_project.egg-info/SOURCES.txt'
+[6.173s] running build
+[6.174s] running build_py
+[6.175s] running install
+[6.177s] running install_lib
+[6.187s] running install_data
+[6.188s] running install_egg_info
+[6.197s] removing '/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project-0.0.0-py3.10.egg-info' (and everything under it)
+[6.199s] Copying ../../build/my_ros2_project/my_ros2_project.egg-info to /root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project-0.0.0-py3.10.egg-info
+[6.204s] running install_scripts
+[6.355s] Installing socket_to_ros script to /root/ros2_ws/install/my_ros2_project/lib/my_ros2_project
+[6.357s] writing list of installed files to '/root/ros2_ws/build/my_ros2_project/install.log'
+[6.446s] Invoked command in '/root/ros2_ws/src/my_ros2_project' returned '0': CMAKE_PREFIX_PATH=/root/ros2_ws/install/message:/root/ros2_ws/install/mybot_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:/root/ros2_ws/install/mybot_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/ros2_ws/build/my_ros2_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_project build --build-base /root/ros2_ws/build/my_ros2_project/build install --record /root/ros2_ws/build/my_ros2_project/install.log --single-version-externally-managed install_data

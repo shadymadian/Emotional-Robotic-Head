@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mybot/srv/MsgSrv.srv
+// generated code does not contain a copyright notice
+
+
+module mybot {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct MsgSrv_Request {
+      string message;
+
+      int32 number;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct MsgSrv_Response {
+      boolean responsed;
+    };
+  };
+};

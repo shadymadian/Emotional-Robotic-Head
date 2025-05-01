@@ -1,0 +1,135 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mybot_interfaces/srv/Rotate.srv
+// generated code does not contain a copyright notice
+
+
+module mybot_interfaces {
+  module srv {
+    struct Rotate_Request {
+      @verbatim (language="comment", text=
+        "joint_1_1 winkel")
+      double angle_motor_1_1;
+
+      @verbatim (language="comment", text=
+        "joint_1_2 winkel")
+      double angle_motor_1_2;
+
+      @verbatim (language="comment", text=
+        "joint_1_3 winkel")
+      double angle_motor_1_3;
+
+      @verbatim (language="comment", text=
+        "joint_1_4 winkel")
+      double angle_motor_1_4;
+
+      @verbatim (language="comment", text=
+        "joint_1_5 winkel")
+      double angle_motor_1_5;
+
+      @verbatim (language="comment", text=
+        "joint_1_6 winkel")
+      double angle_motor_1_6;
+
+      @verbatim (language="comment", text=
+        "joint_2_1 winkel")
+      double angle_motor_2_1;
+
+      @verbatim (language="comment", text=
+        "joint_2_2 winkel")
+      double angle_motor_2_2;
+
+      @verbatim (language="comment", text=
+        "joint_2_3 winkel")
+      double angle_motor_2_3;
+
+      @verbatim (language="comment", text=
+        "joint_2_4 winkel")
+      double angle_motor_2_4;
+
+      @verbatim (language="comment", text=
+        "joint_2_5 winkel")
+      double angle_motor_2_5;
+
+      @verbatim (language="comment", text=
+        "joint_2_6 winkel")
+      double angle_motor_2_6;
+
+      @verbatim (language="comment", text=
+        "joint_3_1 winkel")
+      double angle_motor_3_1;
+
+      @verbatim (language="comment", text=
+        "joint_3_2 winkel")
+      double angle_motor_3_2;
+
+      @verbatim (language="comment", text=
+        "joint_3_3 winkel")
+      double angle_motor_3_3;
+
+      @verbatim (language="comment", text=
+        "joint_1_1 gesetzt?")
+      double angle_motor_1_1_set;
+
+      @verbatim (language="comment", text=
+        "joint_1_2 gesetzt?")
+      double angle_motor_1_2_set;
+
+      @verbatim (language="comment", text=
+        "joint_1_3 gesetzt?")
+      double angle_motor_1_3_set;
+
+      @verbatim (language="comment", text=
+        "joint_1_4 gesetzt?")
+      double angle_motor_1_4_set;
+
+      @verbatim (language="comment", text=
+        "joint_1_5 gesetzt?")
+      double angle_motor_1_5_set;
+
+      @verbatim (language="comment", text=
+        "joint_1_6 gesetzt?")
+      double angle_motor_1_6_set;
+
+      @verbatim (language="comment", text=
+        "joint_2_1 gesetzt?")
+      double angle_motor_2_1_set;
+
+      @verbatim (language="comment", text=
+        "joint_2_2 gesetzt?")
+      double angle_motor_2_2_set;
+
+      @verbatim (language="comment", text=
+        "joint_2_3 gesetzt?")
+      double angle_motor_2_3_set;
+
+      @verbatim (language="comment", text=
+        "joint_2_4 gesetzt?")
+      double angle_motor_2_4_set;
+
+      @verbatim (language="comment", text=
+        "joint_2_5 gesetzt?")
+      double angle_motor_2_5_set;
+
+      @verbatim (language="comment", text=
+        "joint_2_6 gesetzt?")
+      double angle_motor_2_6_set;
+
+      @verbatim (language="comment", text=
+        "joint_3_1 gesetzt?")
+      double angle_motor_3_1_set;
+
+      @verbatim (language="comment", text=
+        "joint_3_2 gesetzt?")
+      double angle_motor_3_2_set;
+
+      @verbatim (language="comment", text=
+        "joint_3_3 gesetzt?")
+      double angle_motor_3_3_set;
+    };
+    struct Rotate_Response {
+      @verbatim (language="comment", text=
+        "返回是否成功")
+      boolean success;
+    };
+  };
+};

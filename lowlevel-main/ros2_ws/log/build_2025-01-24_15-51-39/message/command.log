@@ -1,0 +1,2 @@
+Invoking command in '/home/myura/Desktop/docker_mount/ros2_ws/build/message': _=/usr/bin/env /usr/bin/cmake --build /home/myura/Desktop/docker_mount/ros2_ws/build/message -- -j8 -l8
+Invoked command in '/home/myura/Desktop/docker_mount/ros2_ws/build/message' returned '1': _=/usr/bin/env /usr/bin/cmake --build /home/myura/Desktop/docker_mount/ros2_ws/build/message -- -j8 -l8

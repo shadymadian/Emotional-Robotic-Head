@@ -1,0 +1,34 @@
+[0.111s] Invoking command in '/root/ros2_ws/build/mybot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/mybot_interfaces -- -j8 -l8
+[1.191s] [ 10%] Built target mybot_interfaces__rosidl_generator_c
+[1.240s] [ 10%] Built target ament_cmake_python_copy_mybot_interfaces
+[1.260s] [ 12%] Built target mybot_interfaces__cpp
+[2.123s] [ 23%] Built target mybot_interfaces__rosidl_typesupport_c
+[2.195s] [ 33%] Built target mybot_interfaces__rosidl_typesupport_introspection_c
+[2.378s] [ 43%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_c
+[2.409s] [ 53%] Built target mybot_interfaces__rosidl_typesupport_introspection_cpp
+[2.474s] [ 64%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.478s] [ 74%] Built target mybot_interfaces__rosidl_typesupport_cpp
+[2.753s] Traceback (most recent call last):
+[2.756s]   File "/root/ros2_ws/build/mybot_interfaces/ament_cmake_python/mybot_interfaces/setup.py", line 1, in <module>
+[2.756s] gmake[1]: *** [CMakeFiles/Makefile2:187: CMakeFiles/mybot_interfaces.dir/all] Interrupt
+[2.766s]     from setuptools import find_packages
+[2.767s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+[2.767s]     import distutils.core
+[2.768s]   File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>
+[2.768s]     from distutils.cmd import Command
+[2.769s]   File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>
+[2.769s]     from distutils import util, dir_util, file_util, archive_util, dep_util
+[2.770s]   File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>
+[2.771s]     import zipfile
+[2.771s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[2.772s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[2.772s]   File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+[2.773s]   File "<frozen importlib._bootstrap>", line 577, in module_from_spec
+[2.773s]   File "<frozen importlib._bootstrap>", line 556, in _init_module_attrs
+[2.775s]   File "<frozen importlib._bootstrap>", line 397, in cached
+[2.775s]   File "<frozen importlib._bootstrap_external>", line 513, in _get_cached
+[2.776s]   File "<frozen importlib._bootstrap_external>", line 423, in cache_from_source
+[2.777s] KeyboardInterrupt
+[2.797s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg] Interrupt
+[2.800s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg.dir/all] Interrupt
+[2.810s] gmake: *** [Makefile:146: all] Interrupt

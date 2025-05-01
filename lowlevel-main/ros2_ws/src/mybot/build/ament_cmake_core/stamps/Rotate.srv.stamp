@@ -1,0 +1,3 @@
+float64 angle  # 输入角度（单位：度）
+---
+bool success   # 响应是否成功

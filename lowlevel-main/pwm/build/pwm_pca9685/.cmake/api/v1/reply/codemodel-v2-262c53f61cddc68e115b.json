@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-be3f6c2a2434eb647150.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pwm_pca9685",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mixer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mixer_node-7f2a068f5a207b92ecd8.json",
+					"name" : "mixer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pca9685_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pca9685_node-9fe5b21a9cd688423140.json",
+					"name" : "pca9685_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pwm_pca9685_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pwm_pca9685_uninstall-ec084279146727cfa5fb.json",
+					"name" : "pwm_pca9685_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c4d5520094bc254af89.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/pwm/build/pwm_pca9685",
+		"source" : "/root/pwm/pwm_pca9685"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

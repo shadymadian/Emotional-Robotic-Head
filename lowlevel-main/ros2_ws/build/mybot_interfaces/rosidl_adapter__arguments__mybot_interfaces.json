@@ -1,0 +1,7 @@
+{
+  "package_name": "mybot_interfaces",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/mybot_interfaces:srv/Rotate.srv",
+    "/root/ros2_ws/src/mybot_interfaces:srv/SetCoordinates.srv"
+  ]
+}

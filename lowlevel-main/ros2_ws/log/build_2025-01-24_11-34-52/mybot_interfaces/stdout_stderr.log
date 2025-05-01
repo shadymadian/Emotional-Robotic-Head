@@ -1,0 +1,33 @@
+[ 10%] Built target mybot_interfaces__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_mybot_interfaces
+[ 12%] Built target mybot_interfaces__cpp
+[ 23%] Built target mybot_interfaces__rosidl_typesupport_c
+[ 33%] Built target mybot_interfaces__rosidl_typesupport_introspection_c
+[ 43%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_c
+[ 53%] Built target mybot_interfaces__rosidl_typesupport_introspection_cpp
+[ 64%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target mybot_interfaces__rosidl_typesupport_cpp
+Traceback (most recent call last):
+  File "/root/ros2_ws/build/mybot_interfaces/ament_cmake_python/mybot_interfaces/setup.py", line 1, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:187: CMakeFiles/mybot_interfaces.dir/all] Interrupt
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 17, in <module>
+    from distutils.cmd import Command
+  File "/usr/lib/python3.10/distutils/cmd.py", line 9, in <module>
+    from distutils import util, dir_util, file_util, archive_util, dep_util
+  File "/usr/lib/python3.10/distutils/archive_util.py", line 11, in <module>
+    import zipfile
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 577, in module_from_spec
+  File "<frozen importlib._bootstrap>", line 556, in _init_module_attrs
+  File "<frozen importlib._bootstrap>", line 397, in cached
+  File "<frozen importlib._bootstrap_external>", line 513, in _get_cached
+  File "<frozen importlib._bootstrap_external>", line 423, in cache_from_source
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_mybot_interfaces_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

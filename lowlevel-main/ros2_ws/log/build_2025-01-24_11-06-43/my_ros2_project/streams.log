@@ -1,0 +1,37 @@
+[6.088s] Invoking command in '/root/ros2_ws/src/my_ros2_project': AMENT_PREFIX_PATH=/root/ros2_ws/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/message LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/my_ros2_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_project build --build-base /root/ros2_ws/build/my_ros2_project/build install --record /root/ros2_ws/build/my_ros2_project/install.log --single-version-externally-managed install_data
+[8.261s] running egg_info
+[8.267s] creating ../../build/my_ros2_project/my_ros2_project.egg-info
+[8.269s] writing ../../build/my_ros2_project/my_ros2_project.egg-info/PKG-INFO
+[8.271s] writing dependency_links to ../../build/my_ros2_project/my_ros2_project.egg-info/dependency_links.txt
+[8.272s] writing entry points to ../../build/my_ros2_project/my_ros2_project.egg-info/entry_points.txt
+[8.273s] writing requirements to ../../build/my_ros2_project/my_ros2_project.egg-info/requires.txt
+[8.274s] writing top-level names to ../../build/my_ros2_project/my_ros2_project.egg-info/top_level.txt
+[8.275s] writing manifest file '../../build/my_ros2_project/my_ros2_project.egg-info/SOURCES.txt'
+[8.286s] reading manifest file '../../build/my_ros2_project/my_ros2_project.egg-info/SOURCES.txt'
+[8.292s] writing manifest file '../../build/my_ros2_project/my_ros2_project.egg-info/SOURCES.txt'
+[8.293s] running build
+[8.294s] running build_py
+[8.296s] creating /root/ros2_ws/build/my_ros2_project/build
+[8.297s] creating /root/ros2_ws/build/my_ros2_project/build/lib
+[8.297s] creating /root/ros2_ws/build/my_ros2_project/build/lib/my_ros2_project
+[8.298s] copying my_ros2_project/socket_to_ros.py -> /root/ros2_ws/build/my_ros2_project/build/lib/my_ros2_project
+[8.299s] copying my_ros2_project/__init__.py -> /root/ros2_ws/build/my_ros2_project/build/lib/my_ros2_project
+[8.300s] running install
+[8.301s] running install_lib
+[8.309s] creating /root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project
+[8.310s] copying /root/ros2_ws/build/my_ros2_project/build/lib/my_ros2_project/socket_to_ros.py -> /root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project
+[8.311s] copying /root/ros2_ws/build/my_ros2_project/build/lib/my_ros2_project/__init__.py -> /root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project
+[8.314s] byte-compiling /root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project/socket_to_ros.py to socket_to_ros.cpython-310.pyc
+[8.336s] byte-compiling /root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project/__init__.py to __init__.cpython-310.pyc
+[8.337s] running install_data
+[8.338s] creating /root/ros2_ws/install/my_ros2_project/share/ament_index
+[8.340s] creating /root/ros2_ws/install/my_ros2_project/share/ament_index/resource_index
+[8.341s] creating /root/ros2_ws/install/my_ros2_project/share/ament_index/resource_index/packages
+[8.341s] copying resource/my_ros2_project -> /root/ros2_ws/install/my_ros2_project/share/ament_index/resource_index/packages
+[8.342s] copying package.xml -> /root/ros2_ws/install/my_ros2_project/share/my_ros2_project
+[8.343s] running install_egg_info
+[8.353s] Copying ../../build/my_ros2_project/my_ros2_project.egg-info to /root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages/my_ros2_project-0.0.0-py3.10.egg-info
+[8.359s] running install_scripts
+[8.545s] Installing socket_to_ros script to /root/ros2_ws/install/my_ros2_project/lib/my_ros2_project
+[8.547s] writing list of installed files to '/root/ros2_ws/build/my_ros2_project/install.log'
+[8.657s] Invoked command in '/root/ros2_ws/src/my_ros2_project' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/message LD_LIBRARY_PATH=/root/ros2_ws/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/my_ros2_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_ros2_project/lib/python3.10/site-packages:/root/ros2_ws/install/message/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_project build --build-base /root/ros2_ws/build/my_ros2_project/build install --record /root/ros2_ws/build/my_ros2_project/install.log --single-version-externally-managed install_data

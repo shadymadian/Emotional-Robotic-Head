@@ -1,0 +1,269 @@
+[0.095s] Invoking command in '/root/ros2_ws/build/mybot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/mybot_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/mybot_interfaces
+[1.223s] -- The C compiler identification is GNU 11.4.0
+[2.207s] -- The CXX compiler identification is GNU 11.4.0
+[2.296s] -- Detecting C compiler ABI info
+[3.661s] -- Detecting C compiler ABI info - done
+[3.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.756s] -- Detecting C compile features
+[3.761s] -- Detecting C compile features - done
+[3.787s] -- Detecting CXX compiler ABI info
+[5.125s] -- Detecting CXX compiler ABI info - done
+[5.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.217s] -- Detecting CXX compile features
+[5.223s] -- Detecting CXX compile features - done
+[5.241s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.508s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.339s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.532s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.563s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.621s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.230s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.298s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.448s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[20.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.253s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.634s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[23.639s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[24.025s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[24.027s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[24.027s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[24.028s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[24.393s] -- Found PythonExtra: .so  
+[25.809s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.931s] -- Added test 'lint_cmake' to check CMake code style
+[25.942s] -- Added test 'xmllint' to check XML markup files
+[25.971s] -- Configuring done
+[26.496s] -- Generating done
+[26.708s] -- Build files have been written to: /root/ros2_ws/build/mybot_interfaces
+[26.791s] Invoked command in '/root/ros2_ws/build/mybot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/mybot_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/mybot_interfaces
+[26.810s] Invoking command in '/root/ros2_ws/build/mybot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/mybot_interfaces -- -j8 -l8
+[28.057s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[28.432s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[28.789s] [  5%] Built target ament_cmake_python_copy_mybot_interfaces
+[35.263s] running egg_info
+[35.276s] creating mybot_interfaces.egg-info
+[35.283s] writing mybot_interfaces.egg-info/PKG-INFO
+[35.286s] writing dependency_links to mybot_interfaces.egg-info/dependency_links.txt
+[35.293s] writing top-level names to mybot_interfaces.egg-info/top_level.txt
+[35.295s] writing manifest file 'mybot_interfaces.egg-info/SOURCES.txt'
+[35.333s] reading manifest file 'mybot_interfaces.egg-info/SOURCES.txt'
+[35.346s] writing manifest file 'mybot_interfaces.egg-info/SOURCES.txt'
+[36.053s] [  5%] Built target ament_cmake_python_build_mybot_interfaces_egg
+[50.585s] [  7%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mybot_interfaces/srv/detail/rotate__functions.c.o[0m
+[50.603s] [ 10%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mybot_interfaces/srv/detail/set_coordinates__functions.c.o[0m
+[51.042s] [ 10%] Built target mybot_interfaces__cpp
+[51.508s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[51.539s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[51.562s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[53.832s] [ 20%] [32m[1mLinking C shared library libmybot_interfaces__rosidl_generator_c.so[0m
+[55.159s] [ 20%] Built target mybot_interfaces__rosidl_generator_c
+[55.589s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[55.609s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[55.655s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[65.986s] [ 30%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mybot_interfaces/srv/detail/rotate__type_support.cpp.o[0m
+[65.997s] [ 33%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mybot_interfaces/srv/detail/set_coordinates__type_support.cpp.o[0m
+[69.154s] [ 35%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mybot_interfaces/srv/rotate__type_support.cpp.o[0m
+[69.299s] [ 38%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mybot_interfaces/srv/set_coordinates__type_support.cpp.o[0m
+[72.867s] [ 41%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mybot_interfaces/srv/detail/dds_fastrtps/rotate__type_support.cpp.o[0m
+[75.081s] [ 43%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mybot_interfaces/srv/rotate__type_support.cpp.o[0m
+[76.779s] [ 46%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mybot_interfaces/srv/detail/rotate__type_support.c.o[0m
+[77.806s] [ 48%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mybot_interfaces/srv/set_coordinates__type_support.cpp.o[0m
+[79.213s] [ 51%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mybot_interfaces/srv/detail/rotate__type_support_c.cpp.o[0m
+[79.429s] [ 53%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mybot_interfaces/srv/detail/set_coordinates__type_support.c.o[0m
+[80.702s] [ 56%] [32m[1mLinking CXX shared library libmybot_interfaces__rosidl_typesupport_c.so[0m
+[81.746s] [ 58%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mybot_interfaces/srv/detail/set_coordinates__type_support_c.cpp.o[0m
+[82.023s] [ 61%] [32mBuilding CXX object CMakeFiles/mybot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mybot_interfaces/srv/detail/dds_fastrtps/set_coordinates__type_support.cpp.o[0m
+[82.294s] [ 64%] [32m[1mLinking CXX shared library libmybot_interfaces__rosidl_typesupport_cpp.so[0m
+[82.721s] [ 64%] Built target mybot_interfaces__rosidl_typesupport_c
+[83.110s] [ 66%] [32m[1mLinking C shared library libmybot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[83.311s] [ 69%] [32m[1mLinking CXX shared library libmybot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[84.495s] [ 69%] Built target mybot_interfaces__rosidl_typesupport_cpp
+[85.200s] [ 69%] Built target mybot_interfaces__rosidl_typesupport_introspection_c
+[85.435s] [ 69%] Built target mybot_interfaces__rosidl_typesupport_introspection_cpp
+[91.313s] [ 71%] [32m[1mLinking CXX shared library libmybot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[92.210s] [ 71%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_c
+[92.687s] [ 74%] [32m[1mLinking CXX shared library libmybot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[93.433s] [ 74%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_cpp
+[93.876s] [ 74%] Built target mybot_interfaces
+[94.335s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[107.617s] [ 76%] Built target mybot_interfaces__py
+[108.105s] [ 79%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mybot_interfaces/srv/_rotate_s.c.o[0m
+[108.107s] [ 82%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mybot_interfaces/srv/_set_coordinates_s.c.o[0m
+[110.446s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/mybot_interfaces/libmybot_interfaces__rosidl_generator_py.so[0m
+[111.111s] [ 84%] Built target mybot_interfaces__rosidl_generator_py
+[111.654s] [ 87%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[111.656s] [ 89%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[111.658s] [ 92%] [32mBuilding C object CMakeFiles/mybot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[113.904s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[113.926s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[113.928s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[114.743s] [100%] Built target mybot_interfaces__rosidl_typesupport_c__pyext
+[114.768s] [100%] Built target mybot_interfaces__rosidl_typesupport_introspection_c__pyext
+[114.772s] [100%] Built target mybot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[114.968s] Invoked command in '/root/ros2_ws/build/mybot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/mybot_interfaces -- -j8 -l8
+[114.975s] Invoking command in '/root/ros2_ws/build/mybot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/mybot_interfaces
+[115.152s] -- Install configuration: ""
+[115.158s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/ament_index/resource_index/rosidl_interfaces/mybot_interfaces
+[115.162s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces
+[115.164s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg
+[115.165s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[115.166s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv
+[115.167s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail
+[115.168s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__struct.h
+[115.169s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__functions.c
+[115.170s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__type_support.h
+[115.171s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__functions.h
+[115.171s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__functions.c
+[115.172s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__functions.h
+[115.173s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__struct.h
+[115.173s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__type_support.h
+[115.174s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/rotate.h
+[115.175s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/set_coordinates.h
+[115.176s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/library_path.sh
+[115.177s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/library_path.dsv
+[115.178s] -- Installing: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_generator_c.so
+[115.179s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_generator_c.so" to ""
+[115.180s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces
+[115.181s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg
+[115.183s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[115.184s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv
+[115.185s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail
+[115.185s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__rosidl_typesupport_fastrtps_c.h
+[115.186s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__rosidl_typesupport_fastrtps_c.h
+[115.187s] -- Installing: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_fastrtps_c.so
+[115.189s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[115.190s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces
+[115.190s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg
+[115.191s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[115.192s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv
+[115.193s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail
+[115.193s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__traits.hpp
+[115.194s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__struct.hpp
+[115.195s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__struct.hpp
+[115.197s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__traits.hpp
+[115.198s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__builder.hpp
+[115.199s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__type_support.hpp
+[115.199s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__builder.hpp
+[115.200s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__type_support.hpp
+[115.201s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/set_coordinates.hpp
+[115.202s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/rotate.hpp
+[115.204s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces
+[115.205s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg
+[115.206s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[115.207s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv
+[115.208s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail
+[115.209s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[115.209s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/dds_fastrtps
+[115.210s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__rosidl_typesupport_fastrtps_cpp.hpp
+[115.211s] -- Installing: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[115.211s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[115.212s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces
+[115.213s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg
+[115.214s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[115.214s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv
+[115.215s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail
+[115.216s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__type_support.c
+[115.217s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__type_support.c
+[115.217s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__rosidl_typesupport_introspection_c.h
+[115.218s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__rosidl_typesupport_introspection_c.h
+[115.219s] -- Installing: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_introspection_c.so
+[115.219s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[115.220s] -- Installing: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_c.so
+[115.221s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_c.so" to ""
+[115.221s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces
+[115.222s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv
+[115.223s] -- Up-to-date: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail
+[115.223s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[115.224s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__type_support.cpp
+[115.225s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/rotate__rosidl_typesupport_introspection_cpp.hpp
+[115.226s] -- Installing: /root/ros2_ws/install/mybot_interfaces/include/mybot_interfaces/mybot_interfaces/srv/detail/set_coordinates__type_support.cpp
+[115.226s] -- Installing: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_introspection_cpp.so
+[115.227s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[115.228s] -- Installing: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_cpp.so
+[115.228s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_typesupport_cpp.so" to ""
+[115.229s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/pythonpath.sh
+[115.230s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/pythonpath.dsv
+[115.230s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info
+[115.231s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[115.232s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[115.232s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[115.233s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[115.234s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces
+[115.235s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_c.c
+[115.235s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[115.236s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/__init__.py
+[115.237s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[115.237s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/libmybot_interfaces__rosidl_generator_py.so
+[115.238s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/_mybot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[115.239s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[115.240s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv
+[115.240s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_set_coordinates.py
+[115.241s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/__init__.py
+[115.242s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_rotate_s.c
+[115.242s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_rotate.py
+[115.243s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_set_coordinates_s.c
+[115.244s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[115.868s] Listing '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces'...
+[115.869s] Compiling '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/__init__.py'...
+[115.870s] Listing '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv'...
+[115.871s] Compiling '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/__init__.py'...
+[115.872s] Compiling '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_rotate.py'...
+[115.873s] Compiling '/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/srv/_set_coordinates.py'...
+[115.907s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[115.908s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[115.909s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[115.910s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[115.911s] -- Installing: /root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[115.912s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/local/lib/python3.10/dist-packages/mybot_interfaces/mybot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[115.914s] -- Installing: /root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_generator_py.so
+[115.915s] -- Set runtime path of "/root/ros2_ws/install/mybot_interfaces/lib/libmybot_interfaces__rosidl_generator_py.so" to ""
+[115.916s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/Rotate.idl
+[115.917s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/SetCoordinates.idl
+[115.918s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/Rotate.srv
+[115.919s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/Rotate_Request.msg
+[115.919s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/Rotate_Response.msg
+[115.920s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/SetCoordinates.srv
+[115.921s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/SetCoordinates_Request.msg
+[115.923s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/srv/SetCoordinates_Response.msg
+[115.924s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/ament_index/resource_index/package_run_dependencies/mybot_interfaces
+[115.924s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/ament_index/resource_index/parent_prefix_path/mybot_interfaces
+[115.925s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/ament_prefix_path.sh
+[115.926s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/ament_prefix_path.dsv
+[115.927s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/path.sh
+[115.928s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/environment/path.dsv
+[115.930s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/local_setup.bash
+[115.930s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/local_setup.sh
+[115.932s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/local_setup.zsh
+[115.933s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/local_setup.dsv
+[115.934s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/package.dsv
+[115.935s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/ament_index/resource_index/packages/mybot_interfaces
+[115.936s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_cExport.cmake
+[115.936s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[115.937s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[115.939s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[115.940s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_cppExport.cmake
+[115.940s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[115.942s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[115.942s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[115.943s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[115.944s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_cExport.cmake
+[115.944s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[115.945s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[115.946s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[115.946s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_cppExport.cmake
+[115.947s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[115.948s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_pyExport.cmake
+[115.949s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/export_mybot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[115.949s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/rosidl_cmake-extras.cmake
+[115.950s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[115.951s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[115.951s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[115.952s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[115.953s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[115.953s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[115.954s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfacesConfig.cmake
+[115.955s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/cmake/mybot_interfacesConfig-version.cmake
+[115.955s] -- Installing: /root/ros2_ws/install/mybot_interfaces/share/mybot_interfaces/package.xml
+[115.973s] Invoked command in '/root/ros2_ws/build/mybot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/mybot_interfaces

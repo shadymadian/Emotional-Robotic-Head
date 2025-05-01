@@ -1,0 +1,5 @@
+[0.029s] Invoking command in '/home/myura/Desktop/docker_mount/ros2_ws/build/message': _=/usr/bin/env /usr/bin/cmake --build /home/myura/Desktop/docker_mount/ros2_ws/build/message -- -j8 -l8
+[0.158s] [0mCMake Error: The current CMakeCache.txt directory /home/myura/Desktop/docker_mount/ros2_ws/build/message/CMakeCache.txt is different than the directory /root/ros2_ws/build/message where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.167s] no such file or directory
+[0.168s] [0mCMake Error: Generator: execution of make failed. Make command was: /usr/bin/gmake -f Makefile -j8 -l8[0m
+[0.184s] Invoked command in '/home/myura/Desktop/docker_mount/ros2_ws/build/message' returned '1': _=/usr/bin/env /usr/bin/cmake --build /home/myura/Desktop/docker_mount/ros2_ws/build/message -- -j8 -l8

@@ -1,0 +1,6 @@
+[ 33%] Built target motor_node
+[ 66%] Built target joint_state_publisher_node
+[ 83%] [32mBuilding CXX object CMakeFiles/face_tracking_node.dir/src/face_tracking_node.cpp.o[0m
+gmake[2]: *** [CMakeFiles/face_tracking_node.dir/build.make:76: CMakeFiles/face_tracking_node.dir/src/face_tracking_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/face_tracking_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

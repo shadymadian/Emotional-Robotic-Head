@@ -1,0 +1,3 @@
+[console_scripts]
+socket_to_ros = my_ros2_project.socket_to_ros:main
+

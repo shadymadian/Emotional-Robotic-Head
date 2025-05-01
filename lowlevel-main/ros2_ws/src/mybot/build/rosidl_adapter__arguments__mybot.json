@@ -1,0 +1,6 @@
+{
+  "package_name": "mybot",
+  "non_idl_tuples": [
+    "/home/linhao/ros2_ws/src/mybot:srv/Rotate.srv"
+  ]
+}

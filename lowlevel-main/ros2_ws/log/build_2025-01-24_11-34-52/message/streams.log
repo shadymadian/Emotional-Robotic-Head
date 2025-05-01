@@ -1,0 +1,35 @@
+[0.147s] Invoking command in '/root/ros2_ws/build/message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/message -- -j8 -l8
+[1.164s] [  3%] Built target message__cpp
+[1.212s] [ 12%] Built target message__rosidl_generator_c
+[1.382s] [ 12%] Built target ament_cmake_python_copy_message
+[2.094s] [ 22%] Built target message__rosidl_typesupport_introspection_cpp
+[2.309s] [ 32%] Built target message__rosidl_typesupport_cpp
+[2.314s] [ 51%] Built target message__rosidl_typesupport_c
+[2.319s] [ 51%] Built target message__rosidl_typesupport_introspection_c
+[2.368s] [ 61%] Built target message__rosidl_typesupport_fastrtps_c
+[2.424s] [ 70%] Built target message__rosidl_typesupport_fastrtps_cpp
+[2.829s] Traceback (most recent call last):
+[2.829s]   File "/root/ros2_ws/build/message/ament_cmake_python/message/setup.py", line 1, in <module>
+[2.833s]     from setuptools import find_packages
+[2.834s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+[2.835s]     import distutils.core
+[2.836s]   File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+[2.836s]     from distutils.dist import Distribution
+[2.837s]   File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>
+[2.839s] gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/message.dir/all] Interrupt
+[2.839s]     from distutils.fancy_getopt import FancyGetopt, translate_longopt
+[2.840s]   File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 12, in <module>
+[2.852s]     import getopt
+[2.852s]   File "/usr/lib/python3.10/getopt.py", line 38, in <module>
+[2.853s]     from gettext import gettext as _
+[2.854s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[2.854s]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[2.855s]   File "<frozen importlib._bootstrap>", line 674, in _load_unlocked
+[2.855s]   File "<frozen importlib._bootstrap>", line 577, in module_from_spec
+[2.856s]   File "<frozen importlib._bootstrap>", line 558, in _init_module_attrs
+[2.857s]   File "<frozen importlib._bootstrap>", line 391, in cached
+[2.857s] KeyboardInterrupt
+[2.867s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_message_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_message_egg] Interrupt
+[2.868s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_message_egg.dir/all] Interrupt
+[2.873s] gmake: *** [Makefile:146: all] Interrupt
+[2.881s] Invoked command in '/root/ros2_ws/build/message' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros2_ws/install/my_ros2_project:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/message -- -j8 -l8

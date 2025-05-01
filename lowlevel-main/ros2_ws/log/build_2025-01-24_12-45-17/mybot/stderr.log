@@ -1,0 +1,9 @@
+[01m[K/root/ros2_ws/src/mybot/src/joint_state_publisher_node.cpp:[m[K In member function ‘[01m[Kstd::vector<double, std::allocator<double> > JointStatePublisherNode::matrixVectorMultiplication(double, double)[m[K’:
+[01m[K/root/ros2_ws/src/mybot/src/joint_state_publisher_node.cpp:175:16:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kresult[m[K’ from ‘[01m[Kstd::array<double, 2>[m[K’ to ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’
+  175 |         return [01;31m[Kresult[m[K;
+      |                [01;31m[K^~~~~~[m[K
+      |                [01;31m[K|[m[K
+      |                [01;31m[Kstd::array<double, 2>[m[K
+gmake[2]: *** [CMakeFiles/joint_state_publisher_node.dir/build.make:76: CMakeFiles/joint_state_publisher_node.dir/src/joint_state_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/joint_state_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
